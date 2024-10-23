@@ -1,0 +1,238 @@
+{
+  "id": "91ce1a95-8b21-4c3c-bb3a-69c0cd294f98",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{91CE1A95-8B21-4C3C-BB3A-69C0CD294F98},49\"",
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
+    "name": "Site Page"
+  },
+  "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "createdBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "createdDateTime": "2024-10-20T12:43:40+00:00",
+  "description": "Digital manufacturing solution that can enhance efficiency and productivity. IoT Smart Manufacturing provides a one-stop solution for the Smart Manufacturing. This means that customers don't have to worry about connecting various parts of a complex \u2026",
+  "eTag": "\"{91CE1A95-8B21-4C3C-BB3A-69C0CD294F98},49\"",
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "lastModifiedDateTime": "2024-10-20T12:55:42+00:00",
+  "name": "IoT-Smart-Manufacturing.aspx",
+  "parentReference": {
+    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
+  },
+  "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/IoT-Smart-Manufacturing.aspx",
+  "pageLayout": "article",
+  "publishingState": {
+    "level": "published",
+    "versionId": "1.0"
+  },
+  "title": "IoT Smart Manufacturing",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "id": "0.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "d0282792-5a63-4df7-aafe-f628bcb49576",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.5",
+                  "description": "Show a banner with title and author information",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/_layouts/15/images/sleektemplateimagetile.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Banner",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "title": "IoT Smart Manufacturing",
+                    "textAlignment": "Left",
+                    "showPublishDate": false,
+                    "showTopicHeader": false,
+                    "authorByline@odata.type": "#Collection(String)",
+                    "authorByline": [
+                      "i:0#.f|membership|arif@muarwi.onmicrosoft.com"
+                    ],
+                    "layoutType": "CutInShape",
+                    "topicHeader": "",
+                    "enableGradientEffect": true,
+                    "isDecorative": true,
+                    "authors@odata.type": "#Collection(graph.Json)",
+                    "authors": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "upn": "arif@muarwi.onmicrosoft.com",
+                        "email": "arif@muarwi.onmicrosoft.com",
+                        "name": "Muhammad Arif Wicaksana",
+                        "role": "Head of Product"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788"
+              }
+            ],
+            "width": 0
+          }
+        ],
+        "emphasis": "none",
+        "layout": "fullWidth"
+      },
+      {
+        "id": "1",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1212fc8d-dd6b-408a-8d5d-9f1cc787efbb",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p><span class=\"fontSizeXLargePlus\">Digital manufacturing solution that can enhance efficiency and productivity.</span></p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "818c65e6-e5a1-4794-bebf-2840abe84a0e",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">IoT Smart Manufacturing provides a one-stop solution for the Smart Manufacturing. This means that customers don't have to worry about connecting various parts of a complex systems. IoT Smart Manufacturing features and applications can be customized to match the business processes, requirements, and integrated into the company's database or backend systems. IoT Smart Manufacturing solution provides customized solutions to meet customer needs. The implementation of this solution begins with a site visit to assess the field conditions in order to provide the right Smart Manufacturing solutions and a suitable roadmap.</p>"
+              },
+              {
+                "id": "d742b89f-2ca4-4765-a7b3-03a0d34a3750",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Smart Manufacturing OEE</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>OEE (Overall Equipment Effectiveness) is the gold standard for measuring manufacturing productivity. Simply put \u2013 it identifies the percentage of manufacturing time that is truly productive. An OEE score of 100% means you are manufacturing only Good Parts, as fast as possible, with no Stop Time. In the language of OEE that means 100% Quality (only Good Parts), 100% Performance (as fast as possible), and 100% Availability (no Stop Time).</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>Measuring OEE is a manufacturing best practice. By measuring OEE and the underlying losses, you will gain important insights on how to systematically improve your manufacturing process. OEE is the single best metric for identifying losses, benchmarking progress, and improving the productivity of manufacturing equipment (i.e., eliminating waste).</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Increase production output through monitoring machine performance, production results, and machine utilization:</p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">80% uptime availability</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">85% performance improvement</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">85% better goods production increase</p></li></ul><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p>"
+              },
+              {
+                "id": "183a98c3-1e80-47b2-8eb8-06ba5d449607",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Smart Manufacturing CMMS</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>A computerized maintenance management system (CMMS) is software that centralizes maintenance information and facilitates the processes of maintenance operations.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>A CMMS helps optimize the use and availability of physical equipment such as vehicles, machinery, communications, plant infrastructures and other assets. Also referred to as CMMIS or computerized maintenance management information system, CMMS systems serve a crucial role in various industries. These industries include manufacturing, oil and gas production, power generation, construction, transportation and other industries, where physical infrastructure is critical.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Regular machine maintenance can help improve machine performance and prevent damage.</p>"
+              },
+              {
+                "id": "8bab84fb-cd6f-4c4c-a7ba-c2edd5bbd59b",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Smart Manufacturing Smart Warehouse</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Monitor the movement of assets in and out of the warehouse for efficient management of operations inventory, with 30% increase of inventory process.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Monitoring and managing inventory optimally to minimize the risk of shortages or excess stock, with 20% of accuracy improvement.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Managing inventory to ensure smooth production processes and enhance distribution quality.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Simplifying the process of receiving and checking incoming or outgoing goods using labeling or barcode scanners.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">IoT Smart Manufacturing features facilitating warehouse operations through digitalization that can enhance warehouse system accuracy via data collection, tracking, and warehouse activity monitoring automation tools.<br>&nbsp;</p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "3",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "48ac468d-297a-4279-bbb2-35007526ced0",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Contact Us</strong></p>"
+              },
+              {
+                "id": "58a34f60-a9e6-4faa-a0c9-882704dfbac6",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.4",
+                  "description": "Display selected people and their profiles",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "persons[0].name",
+                        "value": "Muhammad Arif Wicaksana"
+                      },
+                      {
+                        "key": "persons[1].name",
+                        "value": "Pramoedya Toer"
+                      },
+                      {
+                        "key": "persons[0].email",
+                        "value": "arif@muarwi.onmicrosoft.com"
+                      }
+                    ]
+                  },
+                  "title": "People",
+                  "properties": {
+                    "layout": 1,
+                    "title": "",
+                    "persons@odata.type": "#Collection(graph.Json)",
+                    "persons": [
+                      {
+                        "id": "arif@muarwi.onmicrosoft.com",
+                        "upn": "",
+                        "role": "Head of Product",
+                        "department": "",
+                        "phone": "",
+                        "sip": "",
+                        "aadObjectId": "d3f44c90-f9fa-4ba5-834b-805f90437512"
+                      },
+                      {
+                        "email": "",
+                        "id": "i:0#.f|membership|pram@muarwi.onmicrosoft.com",
+                        "upn": "pram@muarwi.onmicrosoft.com",
+                        "role": "Product Manager",
+                        "department": "IoT Development",
+                        "phone": "62896133434",
+                        "sip": "",
+                        "aadObjectId": "ce75701c-ee1e-408b-a0dd-2f7c738d9422"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "7f718435-ee4d-431c-bdbf-9c4ff326f46e"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      }
+    ]
+  },
+  "promotionKind": "page",
+  "reactions": {},
+  "showComments": true,
+  "showRecommendedPages": false,
+  "thumbnailWebUrl": "https://media.akamai.odsp.cdn.office.net/muarwi.sharepoint.com/_layouts/15/images/sitepagethumbnail.png"
+}

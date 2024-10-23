@@ -1,0 +1,472 @@
+{
+  "id": "fc8157b4-cb7f-482e-8afb-800688fd8ee8",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{FC8157B4-CB7F-482E-8AFB-800688FD8EE8},48\"",
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
+    "name": "Site Page"
+  },
+  "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "createdBy": {
+    "user": {
+      "displayName": "System Account"
+    }
+  },
+  "createdDateTime": "2024-10-19T16:04:40+00:00",
+  "description": "Control and analyze all activities in various businesses and industries. Overview Internet of Things (IoT) technology has experienced rapid growth and has become one of the most important innovations in the last few decades. IoT adoption is increasi\u2026",
+  "eTag": "\"{FC8157B4-CB7F-482E-8AFB-800688FD8EE8},48\"",
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "lastModifiedDateTime": "2024-10-20T13:21:16+00:00",
+  "name": "Home.aspx",
+  "parentReference": {
+    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
+  },
+  "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/Home.aspx",
+  "pageLayout": "home",
+  "publishingState": {
+    "level": "published",
+    "versionId": "6.0"
+  },
+  "title": "Home",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "id": "1",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1008e4ea-8be4-47d3-afaa-8542e658160e",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.5",
+                  "description": "Show a banner with title and author information",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "https://cdn.hubblecontent.osi.office.net/m365content/publish/2d5e0448-4aae-4f14-93fd-c13d47796ab0/image.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Banner",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "title": "XYZ - Internet of Things Solutions",
+                    "altText": "",
+                    "layoutType": "FullWidthImage",
+                    "textAlignment": "Left",
+                    "showTopicHeader": false,
+                    "showPublishDate": false,
+                    "topicHeader": "",
+                    "enableGradientEffect": true,
+                    "authorByline@odata.type": "#Collection(String)",
+                    "authorByline": [
+                      "i:0#.f|membership|arif@muarwi.onmicrosoft.com"
+                    ],
+                    "imgHeight": 2880,
+                    "imgWidth": 5120,
+                    "authors@odata.type": "#Collection(graph.Json)",
+                    "authors": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "upn": "arif@muarwi.onmicrosoft.com",
+                        "email": "arif@muarwi.onmicrosoft.com",
+                        "name": "Muhammad Arif Wicaksana",
+                        "role": "Head of Product"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788"
+              },
+              {
+                "id": "24891a22-5552-4462-a81d-b77d7a5bcb37",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p>Control and analyze all activities in various businesses and industries.</p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "1.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "92726fde-f9e0-4b01-9bad-956c80b773cf",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.0",
+                  "description": "Add a link with a rich preview such as an image or text brought in from the linked video or web content.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [
+                      {
+                        "key": "url",
+                        "value": "https://en.wikipedia.org/wiki/Internet_of_things"
+                      }
+                    ],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "title",
+                        "value": "Internet of things - Wikipedia"
+                      }
+                    ]
+                  },
+                  "title": "Link",
+                  "properties": {
+                    "imageURL": "",
+                    "linkPreviewComponentMode": 0,
+                    "displayLink": true,
+                    "minimumLayoutWidth": 2,
+                    "cachedMetaDataUpdateTimeStamp@odata.type": "#Int64",
+                    "cachedMetaDataUpdateTimeStamp": 1729427520350,
+                    "listId": "",
+                    "webId": "",
+                    "uniqueId": "",
+                    "siteId": ""
+                  }
+                },
+                "webPartType": "6410b3b6-d440-4663-8744-378976dc041e"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "eadb28a0-61a4-4d03-986f-0c0d3de52ff5",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\"><span class=\"fontSizeXxLarge\"><strong>Overview</strong></span></p><p class=\"noSpacingAbove spacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"withSpacing\">&nbsp;</p><p class=\"noSpacingAbove spacingBelow\" style=\"margin-left:0px;\" data-text-type=\"withSpacing\">Internet of Things (IoT) technology has experienced rapid growth and has become one of the most important innovations in the last few decades. IoT adoption is increasing along with the development of digital infrastructure and the need for smarter solutions in various industrial sectors.</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p style=\"margin-left:0px;\">IoT has shown its potential to transform various industries, from agriculture to banking. In the agricultural sector, for example, IoT sensors can monitor soil and weather conditions, providing farmers with real-time information to optimize water and fertilizer use.</p><p style=\"margin-left:0px;\">In the healthcare sector, medical devices connected via IoT enable remote patient monitoring, which is very useful especially during the COVID-19 pandemic. Fortune Business Insights reports that the global medical IoT (Internet of Medical Things) market is expected to grow from USD 60.03 billion in 2024 to USD 814.28 billion in 2032.</p><p style=\"margin-left:0px;\">The development of IoT technology offers various opportunities to increase efficiency and productivity in various sectors. In Indonesia, IoT adoption can play a significant role in supporting digital transformation and sustainable economic growth. With improving infrastructure and support from the government, it is hoped that the use of IoT will become more widespread and provide real benefits to society and industry.</p>"
+              },
+              {
+                "id": "73bb5841-199b-4f22-9142-7389df68c8dc",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.12",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "https://cdn.hubblecontent.osi.office.net/m365content/publish/984eb06b-e13d-4c1c-a05c-4f1f490993f1/1025633076.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "Drone-flying-over-a-field.jpg",
+                    "imgWidth": 4866,
+                    "imgHeight": 3243,
+                    "minimumLayoutWidth": 1,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "advancedImageEditorData": {
+                      "@odata.type": "#graph.Json",
+                      "isAdvancedEdited": false
+                    },
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  }
+                },
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8"
+              },
+              {
+                "id": "c7217f6a-b376-4d97-9d16-4070ff7a155c",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">In the agricultural sector, IoT technology enables farmers to manage their fields more efficiently. IoT applications such as soil sensors and automatic irrigation systems help monitor soil conditions and moisture, so that water use can be optimized.</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p style=\"margin-left:0px;\">This can not only increase crop yields but also reduce the use of resources that are often wasted. In addition, drones equipped with cameras and sensors can be used to monitor crop growth and detect pest or disease problems early.</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">Some examples of IoT applications in smart agriculture include:</p><ol class=\"customListStyle\" style=\"list-style-type:decimal;\"><li><p style=\"margin-left:0px !important;\">Soil sensors: Monitor soil moisture, temperature, and nutrients.</p></li><li><p style=\"margin-left:0px !important;\">Automatic irrigation systems: Regulate watering based on data from soil sensors.</p></li><li><p style=\"margin-left:0px !important;\">Monitoring drones: Capture aerial images and sensor data for plant growth analysis.</p></li></ol>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "3.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "8bc1cf94-af46-401e-b791-9cbbbe53103e",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\"><span class=\"fontSizeXxLarge\"><strong>Products</strong></span></p><p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\">Awan IoT offers the following products to the customers:</p>"
+              },
+              {
+                "id": "4109d266-613f-4bdb-aefd-11e740b08830",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "2.3",
+                  "description": "Show a collection of links to content such as documents, images, videos, and more in a variety of layouts with options for icons, images, and audience targeting.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/XYZKnowledgeBase"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "/sites/XYZKnowledgeBase/SitePages/IoT-Environment.aspx"
+                      },
+                      {
+                        "key": "items[1].sourceItem.url",
+                        "value": "/sites/XYZKnowledgeBase/SitePages/IoT-Asset-Performance-Management.aspx"
+                      },
+                      {
+                        "key": "items[2].sourceItem.url",
+                        "value": "/sites/XYZKnowledgeBase/SitePages/IoT-Smart-Manufacturing.aspx"
+                      }
+                    ],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "IoT Environment"
+                      },
+                      {
+                        "key": "items[1].title",
+                        "value": "IoT Asset Performance Management"
+                      },
+                      {
+                        "key": "items[2].title",
+                        "value": "IoT Smart Manufacturing"
+                      }
+                    ]
+                  },
+                  "title": "Quick links",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "CompactCard",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 100,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 3,
+                        "id": 3,
+                        "description": "",
+                        "altText": "",
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                            "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                            "listId": "43092573-968e-494f-9d8a-d19122292bb1",
+                            "uniqueId": "f6a2be01-0fd8-4937-aa78-0df82539e0af"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 3,
+                        "id": 2,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                            "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                            "listId": "43092573-968e-494f-9d8a-d19122292bb1",
+                            "uniqueId": "8199d80c-b674-4b9e-8782-b175dbf22437"
+                          }
+                        }
+                      },
+                      {
+                        "thumbnailType": 3,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".ASPX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                            "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                            "listId": "43092573-968e-494f-9d8a-d19122292bb1",
+                            "uniqueId": "91ce1a95-8b21-4c3c-bb3a-69c0cd294f98"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  }
+                },
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "4.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('4.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('4.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1a4da09f-0d64-45eb-8e9e-53ed4ab77d9b",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\"><span class=\"fontSizeXxLarge\"><strong>IoT Team</strong></span></p><p class=\"noSpacingAbove spacingBelow\" aria-hidden=\"true\" data-text-type=\"withSpacing\">&nbsp;</p>"
+              },
+              {
+                "id": "8f3ae7cc-325f-407e-b7e5-751148da890b",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.4",
+                  "description": "Display selected people and their profiles",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "persons[0].name",
+                        "value": "Muhammad Arif Wicaksana"
+                      },
+                      {
+                        "key": "persons[1].name",
+                        "value": "Pramoedya Toer"
+                      },
+                      {
+                        "key": "persons[0].email",
+                        "value": "arif@muarwi.onmicrosoft.com"
+                      }
+                    ]
+                  },
+                  "title": "People",
+                  "properties": {
+                    "layout": 1,
+                    "title": "",
+                    "persons@odata.type": "#Collection(graph.Json)",
+                    "persons": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "role": "Head of Product",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
+                        "sip": "",
+                        "department": ""
+                      },
+                      {
+                        "id": "i:0#.f|membership|pram@muarwi.onmicrosoft.com",
+                        "email": "",
+                        "role": "Product Manager",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
+                        "sip": "",
+                        "department": ""
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "7f718435-ee4d-431c-bdbf-9c4ff326f46e"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      }
+    ]
+  },
+  "promotionKind": "page",
+  "reactions": {},
+  "showComments": false,
+  "showRecommendedPages": false,
+  "thumbnailWebUrl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/984eb06b-e13d-4c1c-a05c-4f1f490993f1/thumbnails/large.jpg?file=1025633076.jpg"
+}

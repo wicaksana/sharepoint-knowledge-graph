@@ -1,0 +1,296 @@
+{
+  "id": "f6a2be01-0fd8-4937-aa78-0df82539e0af",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{F6A2BE01-0FD8-4937-AA78-0DF82539E0AF},45\"",
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
+    "name": "Site Page"
+  },
+  "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "createdBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "createdDateTime": "2024-10-20T13:09:03+00:00",
+  "description": "Monitoring utilized assets such as electricity, gas and water in real-time. Telkomsel IoT's solution in energy management provides real-time monitoring and measurement of energy consumption, including electricity and other forms of energy, using sen\u2026",
+  "eTag": "\"{F6A2BE01-0FD8-4937-AA78-0DF82539E0AF},45\"",
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "lastModifiedDateTime": "2024-10-20T13:31:38+00:00",
+  "name": "IoT-Environment.aspx",
+  "parentReference": {
+    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
+  },
+  "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/IoT-Environment.aspx",
+  "pageLayout": "article",
+  "publishingState": {
+    "level": "published",
+    "versionId": "2.0"
+  },
+  "title": "IoT Environment",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "id": "0.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "8540ace7-894c-46e5-82db-e3f9aad26209",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.5",
+                  "description": "Show a banner with title and author information",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/_layouts/15/images/sleektemplateimagetile.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Banner",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "title": "IoT Environment",
+                    "textAlignment": "Left",
+                    "showPublishDate": false,
+                    "showTopicHeader": false,
+                    "authorByline@odata.type": "#Collection(String)",
+                    "authorByline": [
+                      "i:0#.f|membership|arif@muarwi.onmicrosoft.com"
+                    ],
+                    "layoutType": "CutInShape",
+                    "topicHeader": "",
+                    "enableGradientEffect": true,
+                    "isDecorative": true,
+                    "authors@odata.type": "#Collection(graph.Json)",
+                    "authors": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "upn": "arif@muarwi.onmicrosoft.com",
+                        "email": "arif@muarwi.onmicrosoft.com",
+                        "name": "Muhammad Arif Wicaksana",
+                        "role": "Head of Product"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788"
+              }
+            ],
+            "width": 0
+          }
+        ],
+        "emphasis": "none",
+        "layout": "fullWidth"
+      },
+      {
+        "id": "1",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1212fc8d-dd6b-408a-8d5d-9f1cc787efbb",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\">Monitoring utilized assets such as electricity, gas and water in real-time.</span></p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "95c052f1-d429-43e3-9e14-20d8cea540c2",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Telkomsel IoT's solution in energy management provides real-time monitoring and measurement of energy consumption, including electricity and other forms of energy, using sensors and MCUs (Master Control Unit) that transmit data to a web dashboard.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Why IoT Envion is the right solution for your business</strong></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><ul class=\"customListStyle\"><li>Optimizing Energy Performance - Energy usage becomes efficient with data, reports, and predictive maintenance.</li><li>Business Insight - Making business decisions based on insights from reports and data analysis.</li><li>Provides Visibility of Energy Usage - Monitoring energy via features that provide visual energy consumption, alarms, and status.</li><li>Business Operation Efficiency - Remote energy monitoring through field equipment access and alarm settings.</li></ul>"
+              },
+              {
+                "id": "4ab659f7-6aad-4bbe-91ad-e6c70e76cb4e",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>IoT Environment Features</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Energy usage monitoring to mitigate risks through an integrated system for real-time power monitoring and continuous active management.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "c33f9e70-c0d9-4032-814d-990bf793f7a9",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.4",
+                  "description": "Display a document or file on your page including Word, Excel, PowerPoint, PDF, 3D models, videos, and more.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [
+                      {
+                        "key": "serverRelativeUrl",
+                        "value": "/sites/XYZKnowledgeBase/Shared%20Documents/IoT-Based%20Environmental%20Monitoring.docx"
+                      },
+                      {
+                        "key": "wopiurl",
+                        "value": "/sites/XYZKnowledgeBase/_layouts/15/Doc.aspx?sourcedoc=%7bED863753-1FEA-4104-A47E-D17224016FCC%7d&file=IoT-Based%20Environmental%20Monitoring.docx&action=embedview&mobileredirect=true"
+                      }
+                    ],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "title",
+                        "value": "IoT-Based Environmental Monitoring"
+                      }
+                    ]
+                  },
+                  "title": "File and Media",
+                  "properties": {
+                    "annotation": "",
+                    "authorName": "Muhammad Arif Wicaksana",
+                    "chartitem": "",
+                    "endrange": "",
+                    "excelSettingsType": "",
+                    "file": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/Shared%20Documents/IoT-Based%20Environmental%20Monitoring.docx",
+                    "listId": "fd2d3579-ab61-4e5c-8d59-e3aa51788e41",
+                    "photoUrl": "https://muarwi.sharepoint.com/_vti_bin/afdcache.ashx/_userprofile/userphoto.jpg?_oat_=1729493735_eae0571b0838bcd9226244f06591d444ac5e753b05338963ddbe8c57dd9e8a74&P1=1729433884&P2=358679847&P3=1&P4=PJUUt7G2rp17LIWkQzpCth%2BrX6jCXjqhFNf%2FvgIHxs7T4V6QGoL5%2BeOTBXLJmOS5D4QOYqvvEkx2fhDeUhlFBzyG8sRK2B9lLr3a%2FzCQBDhXS8EkGLYDN3jL%2FFxuh2QzDSo6cH41qCk2Qoj7l3%2BYvdOGEq6V6ghSvLGuqXQbXOF0YCoyGE4ZJAj4KRqnKTCMY0XyInNF0%2FYjbkMRzqIlO2qRAejl0eYj0sRkB3WGElS%2FHFScR4AwH%2FdorKwTWgZQXGDz5RhDKSxkoVVvvsntgbmOCiC8RP2HmLxOr51hG5t6FHj1fd291soSBjOELjkTRWjRH5r%2F0%2FdyRhs3A8flaw%3D%3D&size=S&accountname=arif%40muarwi.onmicrosoft.com",
+                    "rangeitem": "",
+                    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "startPage": 1,
+                    "startrange": "",
+                    "tableitem": "",
+                    "uniqueId": "ed863753-1fea-4104-a47e-d17224016fcc",
+                    "wdallowinteractivity": true,
+                    "wdhidegridlines": true,
+                    "wdhideheaders": true,
+                    "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                    "webAbsoluteUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase"
+                  }
+                },
+                "webPartType": "b7dd04e1-19ce-4b24-9132-b60a1c2b910d"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "3",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "3b018edd-83d8-4f7b-a3ac-30274c64e12d",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Contact Us</strong></p>"
+              },
+              {
+                "id": "7c3aba2a-b856-419d-b471-d181571d03c6",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.4",
+                  "description": "Display selected people and their profiles",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "persons[0].name",
+                        "value": "Muhammad Arif Wicaksana"
+                      },
+                      {
+                        "key": "persons[1].name",
+                        "value": "Pramoedya Toer"
+                      },
+                      {
+                        "key": "persons[0].email",
+                        "value": "arif@muarwi.onmicrosoft.com"
+                      }
+                    ]
+                  },
+                  "title": "People",
+                  "properties": {
+                    "layout": 1,
+                    "title": "",
+                    "persons@odata.type": "#Collection(graph.Json)",
+                    "persons": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "role": "Head of Product",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
+                        "sip": "",
+                        "department": ""
+                      },
+                      {
+                        "id": "i:0#.f|membership|pram@muarwi.onmicrosoft.com",
+                        "email": "",
+                        "role": "Product Manager",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
+                        "sip": "",
+                        "department": ""
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "7f718435-ee4d-431c-bdbf-9c4ff326f46e"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      }
+    ]
+  },
+  "promotionKind": "page",
+  "reactions": {},
+  "showComments": true,
+  "showRecommendedPages": false,
+  "thumbnailWebUrl": "https://muarwi.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fsites%2FXYZKnowledgeBase%2FShared%2520Documents%2FIoT-Based%2520Environmental%2520Monitoring.docx"
+}

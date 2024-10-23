@@ -1,0 +1,333 @@
+{
+  "id": "8199d80c-b674-4b9e-8782-b175dbf22437",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
+  "@odata.etag": "\"{8199D80C-B674-4B9E-8782-B175DBF22437},51\"",
+  "contentType": {
+    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
+    "name": "Site Page"
+  },
+  "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "createdBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "createdDateTime": "2024-10-20T12:57:47+00:00",
+  "description": "Monitor light, temperature, and humidity in real-time at various locations. What is IoT Asset performance Management? End-to-End solution to manage and monitor indoors, outdoors, and on the move business assets in real-time. With an automated system\u2026",
+  "eTag": "\"{8199D80C-B674-4B9E-8782-B175DBF22437},51\"",
+  "lastModifiedBy": {
+    "user": {
+      "displayName": "Muhammad Arif Wicaksana",
+      "email": "arif@muarwi.onmicrosoft.com"
+    }
+  },
+  "lastModifiedDateTime": "2024-10-20T13:07:18+00:00",
+  "name": "IoT-Asset-Performance-Management.aspx",
+  "parentReference": {
+    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
+  },
+  "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/IoT-Asset-Performance-Management.aspx",
+  "pageLayout": "article",
+  "publishingState": {
+    "level": "published",
+    "versionId": "1.0"
+  },
+  "title": "IoT Asset Performance Management",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "id": "0.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "e3cd9704-4e84-47a6-af42-f2920ea8164d",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.5",
+                  "description": "Show a banner with title and author information",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/_layouts/15/images/sleektemplateimagetile.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Banner",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "title": "IoT Asset Performance Management",
+                    "textAlignment": "Left",
+                    "showPublishDate": false,
+                    "showTopicHeader": false,
+                    "authorByline@odata.type": "#Collection(String)",
+                    "authorByline": [
+                      "i:0#.f|membership|arif@muarwi.onmicrosoft.com"
+                    ],
+                    "layoutType": "CutInShape",
+                    "topicHeader": "",
+                    "enableGradientEffect": true,
+                    "isDecorative": true,
+                    "authors@odata.type": "#Collection(graph.Json)",
+                    "authors": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "upn": "arif@muarwi.onmicrosoft.com",
+                        "email": "arif@muarwi.onmicrosoft.com",
+                        "name": "Muhammad Arif Wicaksana",
+                        "role": "Head of Product"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788"
+              }
+            ],
+            "width": 0
+          }
+        ],
+        "emphasis": "none",
+        "layout": "fullWidth"
+      },
+      {
+        "id": "1",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1212fc8d-dd6b-408a-8d5d-9f1cc787efbb",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p><span class=\"fontSizeXxLarge\">Monitor light, temperature, and humidity in real-time at various locations.</span></p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "15cdf919-00f0-4c93-8c1c-5102a02338be",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>What is IoT Asset performance Management?</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">End-to-End solution to manage and monitor indoors, outdoors, and on the move business assets in real-time. With an automated system of reports, alerts, and insight data retrieval, the entire management process will be easier.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Why IoT APM is the right solution for your business</strong></p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Total visibility: Real-time monitoring of product conditions indoors, outdoors and during delivery.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Notification and Alert: Identify anomalies through the notification system for analysis.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Prevent Theft and Loss: Keep products safe by knowing their real-time location.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Supply Chain Optimization: Monitor the product delivery process more optimally.</p></li></ul>"
+              },
+              {
+                "id": "d5c41470-1b74-4166-a4cd-1a459e2829c2",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Discover how IoT APM helps your business</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><u>Use case 1: Maintain Vaccine Temperature</u></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">The use of sensors that can monitor temperature to maintain stability during distribution to various vaccine locations.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><u>Use case 2: Guarantee Product Quality</u></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Producing the best product quality by maintaining humidity, temperature, and air pressure for satisfying results.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><u>Use case 3: Machine Quality &nbsp;Performance</u></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Preventing damage by performing regular and optimal maintenance to maximize machine performance.</p>"
+              },
+              {
+                "id": "62a1b07a-66a1-4f48-a518-a1d38424a5af",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>IoT Asset Performance Management Features</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Maintain product quality through real-time monitoring with a reporting system, alerts and data insight for an easier management process.</p>"
+              },
+              {
+                "id": "776a1f75-7f66-41cb-ab3f-21abd08fce70",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.12",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/XYZKnowledgeBase/SiteAssets/SitePages/IoT-Asset-Performance-Management/362834144-IOT-APM---1.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "362834144-IOT-APM---1.jpg",
+                    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                    "listId": "389f151e-c710-43ac-abaf-de4e7901b361",
+                    "uniqueId": "51a01ec5-1b8c-4abc-8c04-d4a3e5f3188f",
+                    "imgWidth": 2448,
+                    "imgHeight": 1224,
+                    "minimumLayoutWidth": 1,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 1,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  }
+                },
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8"
+              },
+              {
+                "id": "930b309b-530f-4f7f-8c84-cc4b16fedfab",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.12",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/sites/XYZKnowledgeBase/SiteAssets/SitePages/IoT-Asset-Performance-Management/2110949358-VACCINE-MONITORING---2.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "",
+                    "fileName": "2110949358-VACCINE-MONITORING---2.jpg",
+                    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                    "listId": "389f151e-c710-43ac-abaf-de4e7901b361",
+                    "uniqueId": "a2f6061e-55af-485a-9671-d5a1a5b0c7d9",
+                    "imgWidth": 2448,
+                    "imgHeight": 1224,
+                    "minimumLayoutWidth": 1,
+                    "isOverlayTextVisible": true,
+                    "resizeCoefficient": 1,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  }
+                },
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "3",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1a63744b-c868-4777-9154-99236c7d6aa0",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Contact Us</strong></p>"
+              },
+              {
+                "id": "173f166f-cdda-4add-9376-761bb46e2f9d",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.4",
+                  "description": "Display selected people and their profiles",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "persons[0].name",
+                        "value": "Muhammad Arif Wicaksana"
+                      },
+                      {
+                        "key": "persons[1].name",
+                        "value": "Pramoedya Toer"
+                      },
+                      {
+                        "key": "persons[0].email",
+                        "value": "arif@muarwi.onmicrosoft.com"
+                      }
+                    ]
+                  },
+                  "title": "People",
+                  "properties": {
+                    "layout": 1,
+                    "title": "",
+                    "persons@odata.type": "#Collection(graph.Json)",
+                    "persons": [
+                      {
+                        "id": "arif@muarwi.onmicrosoft.com",
+                        "upn": "",
+                        "role": "Head of Product",
+                        "department": "",
+                        "phone": "",
+                        "sip": "",
+                        "aadObjectId": "d3f44c90-f9fa-4ba5-834b-805f90437512"
+                      },
+                      {
+                        "email": "",
+                        "id": "i:0#.f|membership|pram@muarwi.onmicrosoft.com",
+                        "upn": "pram@muarwi.onmicrosoft.com",
+                        "role": "Product Manager",
+                        "department": "IoT Development",
+                        "phone": "62896133434",
+                        "sip": "",
+                        "aadObjectId": "ce75701c-ee1e-408b-a0dd-2f7c738d9422"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "7f718435-ee4d-431c-bdbf-9c4ff326f46e"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      }
+    ]
+  },
+  "promotionKind": "page",
+  "reactions": {},
+  "showComments": true,
+  "showRecommendedPages": false,
+  "thumbnailWebUrl": "https://muarwi.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fsites%2FXYZKnowledgeBase%2FSiteAssets%2FSitePages%2FIoT-Asset-Performance-Management%2F362834144-IOT-APM---1.jpg&ow=2448&oh=1224"
+}

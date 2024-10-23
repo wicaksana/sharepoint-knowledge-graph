@@ -65,6 +65,10 @@ class Graph:
         return result
 
     async def get_list_base_site_page(self, site_id):
+        """
+        Get the collection of `baseSitePage` objects from the site pages list in a site. 
+        Reference: https://learn.microsoft.com/en-us/graph/api/basesitepage-list?view=graph-rest-1.0&tabs=python
+        """
         result = await self.app_client.sites.by_site_id(site_id).pages.get()
         return result
     
