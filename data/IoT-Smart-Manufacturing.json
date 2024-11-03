@@ -1,39 +1,9 @@
 {
   "id": "91ce1a95-8b21-4c3c-bb3a-69c0cd294f98",
-  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{91CE1A95-8B21-4C3C-BB3A-69C0CD294F98},49\"",
-  "contentType": {
-    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
-    "name": "Site Page"
-  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(id,name,webUrl,canvasLayout())/$entity",
   "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/$entity",
-  "createdBy": {
-    "user": {
-      "displayName": "Muhammad Arif Wicaksana",
-      "email": "arif@muarwi.onmicrosoft.com"
-    }
-  },
-  "createdDateTime": "2024-10-20T12:43:40+00:00",
-  "description": "Digital manufacturing solution that can enhance efficiency and productivity. IoT Smart Manufacturing provides a one-stop solution for the Smart Manufacturing. This means that customers don't have to worry about connecting various parts of a complex \u2026",
-  "eTag": "\"{91CE1A95-8B21-4C3C-BB3A-69C0CD294F98},49\"",
-  "lastModifiedBy": {
-    "user": {
-      "displayName": "Muhammad Arif Wicaksana",
-      "email": "arif@muarwi.onmicrosoft.com"
-    }
-  },
-  "lastModifiedDateTime": "2024-10-20T12:55:42+00:00",
   "name": "IoT-Smart-Manufacturing.aspx",
-  "parentReference": {
-    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
-  },
   "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/IoT-Smart-Manufacturing.aspx",
-  "pageLayout": "article",
-  "publishingState": {
-    "level": "published",
-    "versionId": "1.0"
-  },
-  "title": "IoT Smart Manufacturing",
   "canvasLayout": {
     "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
     "horizontalSections": [
@@ -65,7 +35,7 @@
                   "title": "Banner",
                   "properties": {
                     "imageSourceType": 2,
-                    "title": "IoT Smart Manufacturing",
+                    "title": "XYZ IoT Manufactr",
                     "textAlignment": "Left",
                     "showPublishDate": false,
                     "showTopicHeader": false,
@@ -99,26 +69,6 @@
         "layout": "fullWidth"
       },
       {
-        "id": "1",
-        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns",
-        "columns": [
-          {
-            "id": "1",
-            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
-            "webparts": [
-              {
-                "id": "1212fc8d-dd6b-408a-8d5d-9f1cc787efbb",
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p><span class=\"fontSizeXLargePlus\">Digital manufacturing solution that can enhance efficiency and productivity.</span></p>"
-              }
-            ],
-            "width": 12
-          }
-        ],
-        "emphasis": "none",
-        "layout": "oneColumn"
-      },
-      {
         "id": "2",
         "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns",
         "columns": [
@@ -129,22 +79,137 @@
               {
                 "id": "818c65e6-e5a1-4794-bebf-2840abe84a0e",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">IoT Smart Manufacturing provides a one-stop solution for the Smart Manufacturing. This means that customers don't have to worry about connecting various parts of a complex systems. IoT Smart Manufacturing features and applications can be customized to match the business processes, requirements, and integrated into the company's database or backend systems. IoT Smart Manufacturing solution provides customized solutions to meet customer needs. The implementation of this solution begins with a site visit to assess the field conditions in order to provide the right Smart Manufacturing solutions and a suitable roadmap.</p>"
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">What is Manufactr?</h2><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">XYZ IoT Manufactr provides a one-stop solution for the Smart Manufacturing. This means that customers don't have to worry about connecting various parts of a complex systems. XYZ IoT Manufactr features and applications can be customized to match the business processes, requirements, and integrated into the company's database or backend systems. XYZ IoT Manufactr solution provides customized solutions to meet customer needs. The implementation of this solution begins with a site visit to assess the field conditions in order to provide the right Smart Manufacturing solutions and a suitable roadmap.</p>"
               },
               {
                 "id": "d742b89f-2ca4-4765-a7b3-03a0d34a3750",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Smart Manufacturing OEE</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>OEE (Overall Equipment Effectiveness) is the gold standard for measuring manufacturing productivity. Simply put \u2013 it identifies the percentage of manufacturing time that is truly productive. An OEE score of 100% means you are manufacturing only Good Parts, as fast as possible, with no Stop Time. In the language of OEE that means 100% Quality (only Good Parts), 100% Performance (as fast as possible), and 100% Availability (no Stop Time).</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>Measuring OEE is a manufacturing best practice. By measuring OEE and the underlying losses, you will gain important insights on how to systematically improve your manufacturing process. OEE is the single best metric for identifying losses, benchmarking progress, and improving the productivity of manufacturing equipment (i.e., eliminating waste).</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Increase production output through monitoring machine performance, production results, and machine utilization:</p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">80% uptime availability</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">85% performance improvement</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">85% better goods production increase</p></li></ul><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p>"
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Smart Manufacturing OEE</h2><p>OEE (Overall Equipment Effectiveness) is the gold standard for measuring manufacturing productivity. Simply put \u2013 it identifies the percentage of manufacturing time that is truly productive. An OEE score of 100% means you are manufacturing only Good Parts, as fast as possible, with no Stop Time. In the language of OEE that means 100% Quality (only Good Parts), 100% Performance (as fast as possible), and 100% Availability (no Stop Time).</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p>Measuring OEE is a manufacturing best practice. By measuring OEE and the underlying losses, you will gain important insights on how to systematically improve your manufacturing process. OEE is the single best metric for identifying losses, benchmarking progress, and improving the productivity of manufacturing equipment (i.e., eliminating waste).</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Increase production output through monitoring machine performance, production results, and machine utilization:</p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">80% uptime availability</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">85% performance improvement</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">85% better goods production increase</p></li></ul><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p>"
+              },
+              {
+                "id": "2e9a2cc0-7c61-40d0-a70d-e2f5bce7d22c",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.12",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "https://cdn.hubblecontent.osi.office.net/m365content/publish/74f4e0ab-93a2-4d44-94d5-fda2981119c7/694075824.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "An oil refinery using our solution. ",
+                    "fileName": "Oil-refinery-against-blue-sky.jpg",
+                    "imgWidth": 2048,
+                    "imgHeight": 1152,
+                    "minimumLayoutWidth": 1,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "isOverlayTextEnabled": true,
+                    "advancedImageEditorData": {
+                      "@odata.type": "#graph.Json",
+                      "isAdvancedEdited": false
+                    },
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  }
+                },
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8"
               },
               {
                 "id": "183a98c3-1e80-47b2-8eb8-06ba5d449607",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Smart Manufacturing CMMS</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>A computerized maintenance management system (CMMS) is software that centralizes maintenance information and facilitates the processes of maintenance operations.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p>A CMMS helps optimize the use and availability of physical equipment such as vehicles, machinery, communications, plant infrastructures and other assets. Also referred to as CMMIS or computerized maintenance management information system, CMMS systems serve a crucial role in various industries. These industries include manufacturing, oil and gas production, power generation, construction, transportation and other industries, where physical infrastructure is critical.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Regular machine maintenance can help improve machine performance and prevent damage.</p>"
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Smart Manufacturing CMMS</h2><p>A <a href=\"https://www.ibm.com/topics/what-is-a-cmms\">computerized maintenance management system (CMMS) </a>is software that centralizes maintenance information and facilitates the processes of maintenance operations.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p>A CMMS helps optimize the use and availability of physical equipment such as vehicles, machinery, communications, plant infrastructures and other assets. Also referred to as CMMIS or computerized maintenance management information system, CMMS systems serve a crucial role in various industries. These industries include manufacturing, oil and gas production, power generation, construction, transportation and other industries, where physical infrastructure is critical.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Regular machine maintenance can help improve machine performance and prevent damage.</p>"
+              },
+              {
+                "id": "0d46ac05-f8a4-4a33-a290-d1285b330cdf",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.12",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "https://cdn.hubblecontent.osi.office.net/m365content/publish/76bca189-84bb-44a3-935c-c54e7864cc9f/1273582733.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "Robotic arms monitored using Manufactr",
+                    "fileName": "Biomedical-engineering-robot-in-a-lab.jpg",
+                    "imgWidth": 6000,
+                    "imgHeight": 4000,
+                    "minimumLayoutWidth": 1,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "isOverlayTextEnabled": true,
+                    "advancedImageEditorData": {
+                      "@odata.type": "#graph.Json",
+                      "isAdvancedEdited": false
+                    },
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  }
+                },
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8"
               },
               {
                 "id": "8bab84fb-cd6f-4c4c-a7ba-c2edd5bbd59b",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Smart Manufacturing Smart Warehouse</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Monitor the movement of assets in and out of the warehouse for efficient management of operations inventory, with 30% increase of inventory process.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Monitoring and managing inventory optimally to minimize the risk of shortages or excess stock, with 20% of accuracy improvement.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Managing inventory to ensure smooth production processes and enhance distribution quality.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Simplifying the process of receiving and checking incoming or outgoing goods using labeling or barcode scanners.</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\" aria-hidden=\"true\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">IoT Smart Manufacturing features facilitating warehouse operations through digitalization that can enhance warehouse system accuracy via data collection, tracking, and warehouse activity monitoring automation tools.<br>&nbsp;</p>"
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Smart Manufacturing Smart Warehouse</h2><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Monitor the movement of assets in and out of the warehouse for efficient management of operations inventory, with 30% increase of inventory process. Monitoring and managing inventory optimally to minimize the risk of shortages or excess stock, with 20% of accuracy improvement. Managing inventory to ensure smooth production processes and enhance distribution quality. Simplifying the process of receiving and checking incoming or outgoing goods using labeling or barcode scanners. XYZ IoT Manufactr facilitating warehouse operations through digitalization that can enhance warehouse system accuracy via data collection, tracking, and warehouse activity monitoring automation tools.<br>&nbsp;</p>"
+              },
+              {
+                "id": "bdb49a06-4d87-418f-8383-f21dbf9c3330",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Features</h2><ol class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">IoT platform as-a-service</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Hosted and fully managed by XYZ IoT team</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Free plan for up to 5 devices</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Unlimited connectivity</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">device management</p></li></ol>"
+              },
+              {
+                "id": "74e48b64-3bec-4aa2-8004-c9c2b115014f",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Pricing</h2><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Up to 5 devices: $9.99/month</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Up to 15 devices: $14.99/month&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Up to 100 devices: $79.99/month</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">2 CPU, 2 GB RAM, 40 Gb disk space $15/month</p>"
+              },
+              {
+                "id": "b69a44d1-41fe-41dc-9a08-f1c83b16e055",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Troubleshooting guidelines</h2><p>Troubleshooting an IoT solution requires a systematic approach that addresses the potential issues across hardware, software, connectivity, and data management. Since IoT systems involve multiple components\u2014sensors, gateways, cloud platforms, connectivity, and user applications\u2014understanding where problems occur is crucial for effective resolution. Here\u2019s a step-by-step guide to troubleshooting IoT solution problems:</p><h3 class=\"headingSpacingAbove headingSpacingBelow\">1. Identify the Problem</h3><ul class=\"customListStyle\"><li><strong>Symptoms</strong>: Start by identifying the specific issue\u2014whether it\u2019s a loss of data, device malfunction, connectivity loss, or irregularities in the data being transmitted.</li><li><strong>Scope</strong>: Determine if the problem affects a single device or if it\u2019s a broader issue impacting multiple devices or the entire system.</li><li><strong>Error Logs and Alerts</strong>: Check for any alerts, error messages, or logs in the system to provide clues about what might have gone wrong.</li></ul><h3 class=\"headingSpacingAbove headingSpacingBelow\">2. Check Hardware and Sensors</h3><ul class=\"customListStyle\"><li><strong>Power Supply</strong>: Ensure that all IoT devices, sensors, gateways, and controllers are properly powered. This includes checking battery levels (for battery-powered devices) or confirming that wired power supplies are connected.</li><li><strong>Sensor Condition</strong>: Inspect the physical condition of sensors and devices. Look for damage, loose connections, or faulty installations that could be affecting performance.</li><li><strong>Calibration</strong>: Ensure that sensors are calibrated correctly. Inaccurate readings can be a result of miscalibration.</li><li><strong>Firmware/Software Updates</strong>: Ensure that all devices are running the latest firmware and software versions. Outdated software can cause performance issues or prevent devices from communicating properly.</li></ul><h3>3. Test Connectivity</h3><ul class=\"customListStyle\"><li><strong>Network Status</strong>: Verify the status of the network that connects the IoT devices. Check if there are any issues with the network (Wi-Fi, cellular, LoRaWAN, etc.) that could be causing interruptions.</li><li><strong>Signal Strength</strong>: For wireless devices, check the signal strength between the sensors and the gateway. Weak or fluctuating signals could lead to intermittent data transmission.</li><li><strong>Network Configuration</strong>: Ensure that the correct network settings (e.g., IP addresses, ports) are configured on both the IoT devices and the gateways. Misconfigured network settings can prevent devices from communicating with the cloud.</li><li><strong>Gateway Functionality</strong>: Verify that gateways are operational and capable of transmitting data from the devices to the cloud. If the gateway is malfunctioning, it could prevent communication between devices and the backend system.</li><li><strong>Firewalls and Security Settings</strong>: Ensure that firewalls, security protocols, or other restrictions on the network aren\u2019t blocking communication between devices and the cloud.</li></ul><h3>4. Check Data Flow and Cloud Integration</h3><ul class=\"customListStyle\"><li><strong>Data Transmission</strong>: Confirm that data is being transmitted from the devices to the cloud. This can often be done by reviewing data logs or observing real-time data on the cloud platform.</li><li><strong>Data Integrity</strong>: Check if the data being transmitted is complete and accurate. If there is missing or incorrect data, it could be a sign of issues with the sensors or data corruption during transmission.</li><li><strong>Cloud Services Status</strong>: Ensure that cloud services (e.g., data storage, analytics, processing) are operational. Downtime or service disruptions in cloud platforms could affect how data is processed or displayed.</li><li><strong>APIs and Integrations</strong>: If the IoT solution integrates with other systems (e.g., CRM, ERP, CMMS), verify that the APIs and integrations are functioning correctly. Changes in APIs, version mismatches, or incorrect API keys could break connectivity between systems.</li></ul><h3>5. Analyze Software and Application Issues</h3><ul class=\"customListStyle\"><li><strong>Platform or Application Bugs</strong>: Check for bugs or issues in the IoT platform or applications that visualize or manage the IoT data. User interface problems, malfunctioning dashboards, or failure to display data can indicate software issues.</li><li><strong>Configuration Settings</strong>: Review the configuration settings within the platform. Ensure that devices, data thresholds, alerts, and notifications are correctly configured.</li><li><strong>Update or Patch Software</strong>: Verify whether there are available patches or updates for the IoT platform, application, or backend systems. Bugs or security vulnerabilities might be addressed by updating the software.</li></ul><h3>6. Review Security Protocols</h3><ul class=\"customListStyle\"><li><strong>Authentication and Access Control</strong>: Ensure that all devices and users have proper authentication credentials. Misconfigured or expired credentials can prevent devices from connecting to the cloud.</li><li><strong>Encryption</strong>: Check if encryption protocols are properly configured for secure communication between devices and the cloud. Inconsistent encryption settings can block communication.</li><li><strong>Security Breaches</strong>: Investigate whether the system has encountered any security breaches or unauthorized access attempts, which might disrupt the IoT environment.</li></ul><h3>7. Test and Debug Devices</h3><ul class=\"customListStyle\"><li><strong>Device Restart</strong>: Restart the IoT devices and gateways to see if this resolves the issue. Sometimes simple rebooting can fix communication or performance issues.</li><li><strong>Isolate the Problem</strong>: Test individual devices in isolation to identify whether the problem is related to a specific device or sensor. For example, disconnect devices one at a time to pinpoint the faulty device.</li><li><strong>Reset to Factory Settings</strong>: If the problem persists and cannot be diagnosed, consider resetting the device to its factory settings and reconfiguring it.</li></ul><h3>8. Check for Scalability or Capacity Issues</h3><ul class=\"customListStyle\"><li><strong>Device Overload</strong>: If the IoT solution involves many devices, ensure that the network and cloud infrastructure can handle the number of connected devices. Overloading the system can lead to performance degradation or crashes.</li><li><strong>Data Throughput</strong>: Ensure that the system\u2019s data handling capabilities are sufficient for the volume of data being transmitted. High data throughput might overwhelm gateways or cloud processing, leading to delays or data loss.</li></ul><h3>9. Use Diagnostic Tools and Logs</h3><ul class=\"customListStyle\"><li><strong>Device Logs</strong>: Many IoT devices generate logs that can provide insights into what\u2019s going wrong. Review these logs to look for errors, timeouts, or connection failures.</li><li><strong>Platform Diagnostics</strong>: Use any diagnostic tools or utilities provided by the IoT platform. These can help detect device status, connectivity issues, or misconfigurations.</li><li><strong>Third-Party Tools</strong>: Use network analysis or monitoring tools to check connectivity and traffic flow between devices and the cloud.</li></ul>"
               }
             ],
             "width": 12
@@ -162,11 +227,6 @@
             "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('91ce1a95-8b21-4c3c-bb3a-69c0cd294f98')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns('1')/webparts",
             "webparts": [
               {
-                "id": "48ac468d-297a-4279-bbb2-35007526ced0",
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Contact Us</strong></p>"
-              },
-              {
                 "id": "58a34f60-a9e6-4faa-a0c9-882704dfbac6",
                 "@odata.type": "#microsoft.graph.standardWebPart",
                 "data": {
@@ -178,6 +238,10 @@
                     "links": [],
                     "searchablePlainTexts": [
                       {
+                        "key": "title",
+                        "value": "Contact Us"
+                      },
+                      {
                         "key": "persons[0].name",
                         "value": "Muhammad Arif Wicaksana"
                       },
@@ -188,33 +252,38 @@
                       {
                         "key": "persons[0].email",
                         "value": "arif@muarwi.onmicrosoft.com"
+                      },
+                      {
+                        "key": "persons[1].email",
+                        "value": "pram@muarwi.onmicrosoft.com"
                       }
                     ]
                   },
                   "title": "People",
                   "properties": {
                     "layout": 1,
-                    "title": "",
                     "persons@odata.type": "#Collection(graph.Json)",
                     "persons": [
                       {
-                        "id": "arif@muarwi.onmicrosoft.com",
-                        "upn": "",
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
                         "role": "Head of Product",
-                        "department": "",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
                         "phone": "",
                         "sip": "",
-                        "aadObjectId": "d3f44c90-f9fa-4ba5-834b-805f90437512"
+                        "department": ""
                       },
                       {
-                        "email": "",
                         "id": "i:0#.f|membership|pram@muarwi.onmicrosoft.com",
-                        "upn": "pram@muarwi.onmicrosoft.com",
+                        "email": "",
                         "role": "Product Manager",
-                        "department": "IoT Development",
-                        "phone": "62896133434",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
                         "sip": "",
-                        "aadObjectId": "ce75701c-ee1e-408b-a0dd-2f7c738d9422"
+                        "department": ""
                       }
                     ]
                   }
@@ -229,10 +298,5 @@
         "layout": "oneColumn"
       }
     ]
-  },
-  "promotionKind": "page",
-  "reactions": {},
-  "showComments": true,
-  "showRecommendedPages": false,
-  "thumbnailWebUrl": "https://media.akamai.odsp.cdn.office.net/muarwi.sharepoint.com/_layouts/15/images/sitepagethumbnail.png"
+  }
 }

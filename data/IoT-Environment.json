@@ -1,39 +1,9 @@
 {
   "id": "f6a2be01-0fd8-4937-aa78-0df82539e0af",
-  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{F6A2BE01-0FD8-4937-AA78-0DF82539E0AF},45\"",
-  "contentType": {
-    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
-    "name": "Site Page"
-  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(id,name,webUrl,canvasLayout())/$entity",
   "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/$entity",
-  "createdBy": {
-    "user": {
-      "displayName": "Muhammad Arif Wicaksana",
-      "email": "arif@muarwi.onmicrosoft.com"
-    }
-  },
-  "createdDateTime": "2024-10-20T13:09:03+00:00",
-  "description": "Monitoring utilized assets such as electricity, gas and water in real-time. Telkomsel IoT's solution in energy management provides real-time monitoring and measurement of energy consumption, including electricity and other forms of energy, using sen\u2026",
-  "eTag": "\"{F6A2BE01-0FD8-4937-AA78-0DF82539E0AF},45\"",
-  "lastModifiedBy": {
-    "user": {
-      "displayName": "Muhammad Arif Wicaksana",
-      "email": "arif@muarwi.onmicrosoft.com"
-    }
-  },
-  "lastModifiedDateTime": "2024-10-20T13:31:38+00:00",
   "name": "IoT-Environment.aspx",
-  "parentReference": {
-    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
-  },
   "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/IoT-Environment.aspx",
-  "pageLayout": "article",
-  "publishingState": {
-    "level": "published",
-    "versionId": "2.0"
-  },
-  "title": "IoT Environment",
   "canvasLayout": {
     "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
     "horizontalSections": [
@@ -65,7 +35,7 @@
                   "title": "Banner",
                   "properties": {
                     "imageSourceType": 2,
-                    "title": "IoT Environment",
+                    "title": "XYZ IoT Viron",
                     "textAlignment": "Left",
                     "showPublishDate": false,
                     "showTopicHeader": false,
@@ -107,9 +77,49 @@
             "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1')/columns('1')/webparts",
             "webparts": [
               {
-                "id": "1212fc8d-dd6b-408a-8d5d-9f1cc787efbb",
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p><span class=\"fontSizeXxLarge\">Monitoring utilized assets such as electricity, gas and water in real-time.</span></p>"
+                "id": "01c4535e-fc15-4f23-bf15-da89b3a4fb32",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.0",
+                  "description": "Add call to action text and an image paired with a clickable button.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "image.url",
+                        "value": "https://res-1.cdn.office.net/files/sp-client/odm_spdefaultbanner_light_518ee9bb.jpg"
+                      }
+                    ],
+                    "links": [
+                      {
+                        "key": "button.linkUrl",
+                        "value": "https://google.com"
+                      }
+                    ],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "overlayText.text",
+                        "value": "Contact us for pre-sales support to your prospect"
+                      }
+                    ]
+                  },
+                  "title": "Call to action",
+                  "properties": {
+                    "alignment": "Left",
+                    "minimumLayoutWidth": 2,
+                    "button": {
+                      "@odata.type": "#graph.Json"
+                    },
+                    "overlayText": {
+                      "@odata.type": "#graph.Json"
+                    },
+                    "image": {
+                      "@odata.type": "#graph.Json",
+                      "zoomRatio": 1
+                    }
+                  }
+                },
+                "webPartType": "df8e44e7-edd5-46d5-90da-aca1539313b8"
               }
             ],
             "width": 12
@@ -129,28 +139,8 @@
               {
                 "id": "95c052f1-d429-43e3-9e14-20d8cea540c2",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Telkomsel IoT's solution in energy management provides real-time monitoring and measurement of energy consumption, including electricity and other forms of energy, using sensors and MCUs (Master Control Unit) that transmit data to a web dashboard.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Why IoT Envion is the right solution for your business</strong></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><ul class=\"customListStyle\"><li>Optimizing Energy Performance - Energy usage becomes efficient with data, reports, and predictive maintenance.</li><li>Business Insight - Making business decisions based on insights from reports and data analysis.</li><li>Provides Visibility of Energy Usage - Monitoring energy via features that provide visual energy consumption, alarms, and status.</li><li>Business Operation Efficiency - Remote energy monitoring through field equipment access and alarm settings.</li></ul>"
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><span class=\"fontSizeXLargePlus\"><strong>Introducing XYZ IoT Viron - The Environmental Monitoring Solution</strong></span></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">XYZ IoT Viron provides cutting-edge, real-time insights into your customers' environment\u2014helping them monitor, analyze, and optimize key environmental parameters like temperature, humidity, air quality, CO2 levels, noise, and more. With our comprehensive solution, they can ensure a healthier, safer, and more efficient environment for your organization.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Why IoT Viron is the right solution for your customers' business</strong></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><ul class=\"customListStyle\"><li>Optimizing Energy Performance - Energy usage becomes efficient with data, reports, and predictive maintenance.</li><li>Business Insight - Making business decisions based on insights from reports and data analysis.</li><li>Provides Visibility of Energy Usage - Monitoring energy via features that provide visual energy consumption, alarms, and status.</li><li>Business Operation Efficiency - Remote energy monitoring through field equipment access and alarm settings.</li></ul>"
               },
-              {
-                "id": "4ab659f7-6aad-4bbe-91ad-e6c70e76cb4e",
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>IoT Environment Features</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Energy usage monitoring to mitigate risks through an integrated system for real-time power monitoring and continuous active management.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p>"
-              }
-            ],
-            "width": 12
-          }
-        ],
-        "emphasis": "none",
-        "layout": "oneColumn"
-      },
-      {
-        "id": "2.5",
-        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns",
-        "columns": [
-          {
-            "id": "1",
-            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns('1')/webparts",
-            "webparts": [
               {
                 "id": "c33f9e70-c0d9-4032-814d-990bf793f7a9",
                 "@odata.type": "#microsoft.graph.standardWebPart",
@@ -201,6 +191,128 @@
                   }
                 },
                 "webPartType": "b7dd04e1-19ce-4b24-9132-b60a1c2b910d"
+              },
+              {
+                "id": "4ab659f7-6aad-4bbe-91ad-e6c70e76cb4e",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Learn how the XYZ IoT Viron works: </strong><a href=\"https://www.youtube.com/watch?v=6EvoGWGtyFQ\"><strong>Check out the Viron Training Video</strong></a><strong> </strong>- it covers all the key features.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Customer value:</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">The value of Viron solutions lies in the wide range of benefits they provide across various dimensions, including operational efficiency, cost savings, compliance, safety, and sustainability. These solutions enable businesses to monitor and control environmental factors in real time, delivering actionable insights that directly improve both short-term performance and long-term strategy.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Value to XYZ:</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">These solutions strengthen our preposition to revolutionize industries by providing enhanced connectivity, automation, and data-driven insights. It also helps us to tap the massive growth potential we see across industries.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Who we are working with:</strong></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">We have partnerships with large system integrators such as <a href=\"https://sciencemonitor.com\">ScienceMonitor</a>, <a href=\"https://southbase.iot\">Southbase</a>, and <a href=\"https://itgeo-solutions.com\">ITGeo</a>.</p>"
+              },
+              {
+                "id": "957d47f1-a86f-4386-aabf-a029e9ca336f",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><span class=\"fontSizeXLargePlus\"><strong>How it works</strong></span></p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p>XYZ IoT Viron works by using connected sensors and devices to continuously measure and track various environmental parameters such as temperature, humidity, air quality, noise levels, light, and more. These devices gather real-time data, which is then transmitted to a central platform where it can be analyzed, visualized, and acted upon. The system allows users to monitor environmental conditions remotely, automate responses, and make informed decisions based on the collected data. Here\u2019s a breakdown of how the process works:</p><h3><span class=\"fontSizeLarge\">1. <strong>Sensors and Devices</strong></span></h3><ul class=\"customListStyle\"><li><strong>Data Collection</strong>: IoT environmental monitoring begins with the deployment of sensors that measure specific environmental factors. Common types of sensors include:<ul class=\"customListStyle\"><li><strong>Temperature and Humidity Sensors</strong>: Measure ambient conditions in various settings like offices, factories, or agricultural fields.</li><li><strong>Air Quality Sensors</strong>: Detect levels of gases like CO2, CO, VOCs (volatile organic compounds), and particulate matter (PM2.5 or PM10).</li><li><strong>Light and Noise Sensors</strong>: Track ambient light levels and noise pollution in environments like smart buildings or urban areas.</li><li><strong>Pressure and Water Sensors</strong>: Monitor conditions such as atmospheric pressure or water levels in flood-prone areas or industrial sites.</li></ul></li></ul><p>These sensors are equipped with connectivity modules (such as Wi-Fi, Bluetooth, Zigbee, or LoRaWAN) that allow them to transmit the collected data.</p><h3><span class=\"fontSizeLarge\">2. <strong>Data Transmission</strong></span></h3><ul class=\"customListStyle\"><li><strong>Connectivity</strong>: Once the data is collected, it is transmitted over a network to a centralized hub or cloud platform. Depending on the application, different communication protocols may be used:<ul class=\"customListStyle\"><li><a href=\"https://en.wikipedia.org/wiki/Wi-Fi\"><strong>Wi-Fi</strong></a> or <a href=\"https://en.wikipedia.org/wiki/Ethernet\"><strong>Ethernet</strong></a> in smart buildings or facilities with stable internet infrastructure.</li><li><strong>Cellular (3G/4G/5G)</strong> for remote or distributed locations where wired internet is unavailable.</li><li><a href=\"https://en.wikipedia.org/wiki/LoRa#LoRaWAN\"><strong>LoRaWAN</strong></a> or <a href=\"https://en.wikipedia.org/wiki/Narrowband_IoT\"><strong>NB-IoT</strong></a> for low-power, wide-area networks that need to cover large distances (e.g., smart agriculture or environmental monitoring in rural areas).</li></ul></li></ul><p>The choice of connectivity depends on factors like range, data transmission frequency, power consumption, and network availability.</p><h3><span class=\"fontSizeLarge\">3. <strong>Data Storage and Processing (Cloud or Edge)</strong></span></h3><ul class=\"customListStyle\"><li><strong>Edge Processing</strong>: In some cases, initial data processing is done locally (on the edge) to reduce the amount of data sent to the cloud and to enable faster real-time actions. For instance, if a temperature sensor detects a rapid spike, an edge device (gateway) can immediately trigger an alert.</li><li><strong>Cloud Processing</strong>: Data is typically sent to a cloud platform where it can be aggregated, processed, and analyzed at scale. Cloud computing allows for the storage of large amounts of data and the use of advanced analytics or machine learning to derive insights.</li></ul><p>This stage involves: - <strong>Data normalization</strong>: Converting data into a consistent format. - <strong>Data filtering</strong>: Removing noise or irrelevant data. - <strong>Data storage</strong>: Storing historical data for analysis, reporting, and compliance.</p><h3><span class=\"fontSizeLarge\">4. <strong>Data Analysis and Insights</strong></span></h3><ul class=\"customListStyle\"><li><strong>Analytics Platforms</strong>: The raw data from sensors is processed and analyzed to generate actionable insights. Using algorithms and machine learning models, the platform can identify patterns, trends, and anomalies in the data. For example:<ul class=\"customListStyle\"><li><strong>Predictive Analytics</strong>: Detecting patterns that predict future conditions, such as a rise in CO2 levels or humidity that could affect equipment or indoor air quality.</li><li><strong>Threshold-Based Alerts</strong>: Setting predefined thresholds (e.g., maximum safe temperature), so that the system sends real-time alerts when conditions go outside the acceptable range.</li><li><strong>Historical Data Analysis</strong>: Reviewing trends over time to make data-driven decisions about environmental control measures or operational improvements.</li></ul></li></ul><p><strong>AI and Machine Learning</strong> are often integrated into IoT monitoring platforms to enhance the analysis, predicting failures or optimizing systems based on learned behaviors.</p><h3><span class=\"fontSizeLarge\">5. <strong>Visualization and Monitoring</strong></span></h3><ul class=\"customListStyle\"><li><strong>User Dashboard</strong>: The data and insights are presented on a user-friendly dashboard or interface that allows operators to visualize real-time conditions. This dashboard can be accessed via desktop, mobile devices, or dedicated control systems.<ul class=\"customListStyle\"><li><strong>Real-Time Monitoring</strong>: Users can view current environmental conditions across multiple locations, compare different data sets, and get an overview of historical data.</li><li><strong>Customizable Alerts and Notifications</strong>: Users can configure the system to send automatic alerts via email, SMS, or in-app notifications whenever the system detects a critical environmental change.</li><li><strong>Interactive Maps and Graphs</strong>: For large facilities or outdoor monitoring, geographic information systems (GIS) and maps may be used to display sensor data across different areas.</li></ul></li></ul><h3><span class=\"fontSizeLarge\">6. <strong>Automation and Control</strong></span></h3><ul class=\"customListStyle\"><li><strong>Automated Responses</strong>: One of the key benefits of IoT environmental monitoring is the ability to automate actions based on data. This could include:<ul class=\"customListStyle\"><li><strong>HVAC Control</strong>: Automatically adjusting heating, ventilation, and air conditioning systems in response to changes in temperature or humidity levels.</li><li><strong>Ventilation</strong>: Increasing airflow or filtration if air quality sensors detect elevated levels of pollutants or gases.</li><li><strong>Watering Systems</strong>: Activating irrigation systems in agriculture when soil moisture sensors detect that crops need water.</li></ul></li></ul><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">These automated actions help maintain optimal environmental conditions, improve energy efficiency, and reduce manual intervention.</p><h3><span class=\"fontSizeLarge\">7. <strong>Alerts and Notifications</strong></span></h3><ul class=\"customListStyle\"><li><strong>Threshold-Based Alerts</strong>: If any parameter (e.g., temperature, humidity, or air quality) exceeds or drops below a predefined threshold, the system sends out real-time alerts to the designated personnel. These alerts can be customized based on the criticality of the condition.</li><li><strong>Predictive Alerts</strong>: Using historical data, the system can predict when conditions are likely to move out of range (e.g., based on trends of rising temperatures) and issue early warnings.</li></ul><h3><span class=\"fontSizeLarge\">8. <strong>Integration with Other Systems</strong></span></h3><ul class=\"customListStyle\"><li><a href=\"https://en.wikipedia.org/wiki/Building_automation\"><strong>Building Management Systems (BMS)</strong></a>: IoT environmental monitoring can integrate with BMS to automate building-wide controls such as lighting, HVAC, and security based on environmental data.</li><li><a href=\"https://en.wikipedia.org/wiki/SCADA\"><strong>SCADA</strong></a><strong> or Industrial Systems</strong>: In industrial environments, IoT solutions can integrate with Supervisory Control and Data Acquisition (SCADA) systems for seamless control and monitoring of plant-wide operations.</li><li><a href=\"https://en.wikipedia.org/wiki/Enterprise_resource_planning\"><strong>ERP and Analytics Platforms</strong></a>: The data collected from IoT devices can be fed into enterprise resource planning (ERP) or business intelligence systems for broader operational insights and strategic planning.</li></ul><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p>"
+              },
+              {
+                "id": "39d2d41a-0d95-45d8-88a5-bb3d626e75e1",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><span class=\"fontSizeXLargePlus\"><strong>Portable Monitoring Kit</strong></span></p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Key features:</p><ol class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Compact and Portable Design</strong> - The kit is lightweight, easy to transport, and designed for on-the-go deployment in diverse environments such as field operations, warehouses, or temporary setups.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Multi-Sensor Integration</strong> - Portable monitoring kits often come with multiple integrated sensors that can track environmental parameters such as temperature, humidity, air quality, etc.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">&nbsp;<strong>Wireless Connectivity</strong> - The kit uses wireless communication technologies like Wi-Fi, Bluetooth, Zigbee, LoRaWAN, or cellular (4G/5G) to transmit data in real time.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Real-Time Data Monitoring and Alerts</strong> - The device provides real-time monitoring, sending data to a cloud platform or mobile application. Users can set custom thresholds for environmental conditions and receive real-time alerts if these are exceeded.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Battery-Powered Operation</strong> - Many portable kits are battery-powered, allowing for hours or days of autonomous operation without being plugged into a power source.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>GPS and Geolocation Capabilities</strong> - Some portable monitoring kits are equipped with GPS functionality to track the exact location of environmental readings.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Low Power Consumption</strong> - IoT environment portable monitoring kits are designed with energy-efficient sensors and communication technologies, minimizing battery consumption and maximizing operational lifespan.</p></li></ol>"
+              },
+              {
+                "id": "8ea4da8a-f206-49eb-b49c-e77c9be23214",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><span class=\"fontSizeXLargePlus\"><strong>Pricing</strong></span></p><p>$7,500 is the upfront price and includes all margins, $50 per month is the ongoing subscription price.<br>The hardware cost can be paid over a term, but it\u2019s important to note that these aren\u2019t IFP as each have a different cost of capital.<br>1 year = $650/mo<br>2 year = $325/mo<br>3 year = $300/mo<br>4 year = $275/mo<br>Optional wall bracket = $185</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Worksite monitoring price guide:</p><div class=\"imagePlugin\" style=\"background-color:transparent;position:relative;\" data-alignment=\"Center\" data-imagenaturalheight=\"265\" data-imagenaturalwidth=\"883\" data-imageurl=\"/sites/XYZKnowledgeBase/SiteAssets/SitePages/IoT-Environment/1685955020-pricing_viron.png\" data-listid=\"389f151e-c710-43ac-abaf-de4e7901b361\" data-siteid=\"d4782aca-aacc-4f4f-a6d1-af9e0f41c4be\" data-uniqueid=\"38646a48-65f1-405b-bcaa-85c5063f7284\" data-webid=\"fdd58471-aa50-4b18-af76-349455216d9e\" data-height=\"217.18481845902792\" data-width=\"723.6762064125346\" data-widthpercentage=\"78.15077823029532\" data-uploading=\"0\"></div><p>&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "5d73f091-d04d-47cf-b911-165689c6efb2",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><span class=\"fontSizeXLargePlus\"><strong>Tools and Resources</strong></span></p>"
+              },
+              {
+                "id": "6028d947-0863-4ac0-8bdd-f9f892a9783e",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "2.3",
+                  "description": "Show a collection of links to content such as documents, images, videos, and more in a variety of layouts with options for icons, images, and audience targeting.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/XYZKnowledgeBase"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "/sites/XYZKnowledgeBase/Shared%20Documents/IoT-Based%20Environmental%20Monitoring.docx"
+                      }
+                    ],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "items[0].title",
+                        "value": "XYZ IoT Viron"
+                      }
+                    ]
+                  },
+                  "title": "Quick links",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "CompactCard",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 100,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "pane_link_button": 0,
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 3,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".DOCX",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                            "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                            "listId": "fd2d3579-ab61-4e5c-8d59-e3aa51788e41",
+                            "uniqueId": "ed863753-1fea-4104-a47e-d17224016fcc"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  }
+                },
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd"
               }
             ],
             "width": 12
@@ -218,11 +330,6 @@
             "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('f6a2be01-0fd8-4937-aa78-0df82539e0af')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns('1')/webparts",
             "webparts": [
               {
-                "id": "3b018edd-83d8-4f7b-a3ac-30274c64e12d",
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Contact Us</strong></p>"
-              },
-              {
                 "id": "7c3aba2a-b856-419d-b471-d181571d03c6",
                 "@odata.type": "#microsoft.graph.standardWebPart",
                 "data": {
@@ -234,6 +341,10 @@
                     "links": [],
                     "searchablePlainTexts": [
                       {
+                        "key": "title",
+                        "value": "Key Contacts"
+                      },
+                      {
                         "key": "persons[0].name",
                         "value": "Muhammad Arif Wicaksana"
                       },
@@ -244,13 +355,16 @@
                       {
                         "key": "persons[0].email",
                         "value": "arif@muarwi.onmicrosoft.com"
+                      },
+                      {
+                        "key": "persons[1].email",
+                        "value": "pram@muarwi.onmicrosoft.com"
                       }
                     ]
                   },
                   "title": "People",
                   "properties": {
-                    "layout": 1,
-                    "title": "",
+                    "layout": 3,
                     "persons@odata.type": "#Collection(graph.Json)",
                     "persons": [
                       {
@@ -287,10 +401,5 @@
         "layout": "oneColumn"
       }
     ]
-  },
-  "promotionKind": "page",
-  "reactions": {},
-  "showComments": true,
-  "showRecommendedPages": false,
-  "thumbnailWebUrl": "https://muarwi.sharepoint.com/_layouts/15/getpreview.ashx?path=%2Fsites%2FXYZKnowledgeBase%2FShared%2520Documents%2FIoT-Based%2520Environmental%2520Monitoring.docx"
+  }
 }

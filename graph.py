@@ -78,8 +78,12 @@ class Graph:
     
 
     async def get_page_content(self, site_id, page_id):
-        """Get page content, including canvasLayout"""
+        """
+        Get page content, including canvasLayout
+        Reference: https://learn.microsoft.com/en-us/graph/api/sitepage-get?view=graph-rest-1.0&tabs=python
+        """
         query_params = GraphSitePageRequestBuilder.GraphSitePageRequestBuilderGetQueryParameters(
+            select=['id','name','webUrl'],
             expand=['canvasLayout']
         )
 

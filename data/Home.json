@@ -1,38 +1,9 @@
 {
   "id": "fc8157b4-cb7f-482e-8afb-800688fd8ee8",
-  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(canvasLayout())/$entity",
-  "@odata.etag": "\"{FC8157B4-CB7F-482E-8AFB-800688FD8EE8},48\"",
-  "contentType": {
-    "id": "0x0101009D1CB255DA76424F860D91F20E6C411800A0C53FC6A28C734E83F9337E05D96C5D",
-    "name": "Site Page"
-  },
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(id,name,webUrl,canvasLayout())/$entity",
   "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/$entity",
-  "createdBy": {
-    "user": {
-      "displayName": "System Account"
-    }
-  },
-  "createdDateTime": "2024-10-19T16:04:40+00:00",
-  "description": "Control and analyze all activities in various businesses and industries. Overview Internet of Things (IoT) technology has experienced rapid growth and has become one of the most important innovations in the last few decades. IoT adoption is increasi\u2026",
-  "eTag": "\"{FC8157B4-CB7F-482E-8AFB-800688FD8EE8},48\"",
-  "lastModifiedBy": {
-    "user": {
-      "displayName": "Muhammad Arif Wicaksana",
-      "email": "arif@muarwi.onmicrosoft.com"
-    }
-  },
-  "lastModifiedDateTime": "2024-10-20T13:21:16+00:00",
   "name": "Home.aspx",
-  "parentReference": {
-    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be"
-  },
   "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/Home.aspx",
-  "pageLayout": "home",
-  "publishingState": {
-    "level": "published",
-    "versionId": "6.0"
-  },
-  "title": "Home",
   "canvasLayout": {
     "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
     "horizontalSections": [
@@ -69,7 +40,7 @@
                     "layoutType": "FullWidthImage",
                     "textAlignment": "Left",
                     "showTopicHeader": false,
-                    "showPublishDate": false,
+                    "showPublishDate": true,
                     "topicHeader": "",
                     "enableGradientEffect": true,
                     "authorByline@odata.type": "#Collection(String)",
@@ -95,7 +66,7 @@
               {
                 "id": "24891a22-5552-4462-a81d-b77d7a5bcb37",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p>Control and analyze all activities in various businesses and industries.</p>"
+                "innerHtml": "<p>Welcome to the knowledge base of XYZ IoT solutions!</p>"
               }
             ],
             "width": 12
@@ -113,35 +84,43 @@
             "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('1.5')/columns('1')/webparts",
             "webparts": [
               {
-                "id": "92726fde-f9e0-4b01-9bad-956c80b773cf",
+                "id": "ccac6748-9dd9-43df-84d0-1ab9466459f7",
                 "@odata.type": "#microsoft.graph.standardWebPart",
                 "data": {
                   "dataVersion": "1.0",
                   "description": "Add a link with a rich preview such as an image or text brought in from the linked video or web content.",
                   "serverProcessedContent": {
                     "htmlStrings": [],
-                    "imageSources": [],
+                    "imageSources": [
+                      {
+                        "key": "imageURL",
+                        "value": "https://xyz-iot-solutions.weebly.com/uploads/1/5/1/2/151220070/screenshot-from-2024-10-24-09-02-28_orig.png"
+                      }
+                    ],
                     "links": [
                       {
                         "key": "url",
-                        "value": "https://en.wikipedia.org/wiki/Internet_of_things"
+                        "value": "https://xyz-iot-solutions.weebly.com/"
                       }
                     ],
                     "searchablePlainTexts": [
                       {
                         "key": "title",
-                        "value": "Internet of things - Wikipedia"
+                        "value": "XYZ IOT SOLUTIONS"
+                      },
+                      {
+                        "key": "description",
+                        "value": "We offer wide range of IoT solutions for your business needs."
                       }
                     ]
                   },
                   "title": "Link",
                   "properties": {
-                    "imageURL": "",
                     "linkPreviewComponentMode": 0,
                     "displayLink": true,
                     "minimumLayoutWidth": 2,
                     "cachedMetaDataUpdateTimeStamp@odata.type": "#Int64",
-                    "cachedMetaDataUpdateTimeStamp": 1729427520350,
+                    "cachedMetaDataUpdateTimeStamp": 1729735453827,
                     "listId": "",
                     "webId": "",
                     "uniqueId": "",
@@ -168,7 +147,7 @@
               {
                 "id": "eadb28a0-61a4-4d03-986f-0c0d3de52ff5",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\"><span class=\"fontSizeXxLarge\"><strong>Overview</strong></span></p><p class=\"noSpacingAbove spacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"withSpacing\">&nbsp;</p><p class=\"noSpacingAbove spacingBelow\" style=\"margin-left:0px;\" data-text-type=\"withSpacing\">Internet of Things (IoT) technology has experienced rapid growth and has become one of the most important innovations in the last few decades. IoT adoption is increasing along with the development of digital infrastructure and the need for smarter solutions in various industrial sectors.</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p style=\"margin-left:0px;\">IoT has shown its potential to transform various industries, from agriculture to banking. In the agricultural sector, for example, IoT sensors can monitor soil and weather conditions, providing farmers with real-time information to optimize water and fertilizer use.</p><p style=\"margin-left:0px;\">In the healthcare sector, medical devices connected via IoT enable remote patient monitoring, which is very useful especially during the COVID-19 pandemic. Fortune Business Insights reports that the global medical IoT (Internet of Medical Things) market is expected to grow from USD 60.03 billion in 2024 to USD 814.28 billion in 2032.</p><p style=\"margin-left:0px;\">The development of IoT technology offers various opportunities to increase efficiency and productivity in various sectors. In Indonesia, IoT adoption can play a significant role in supporting digital transformation and sustainable economic growth. With improving infrastructure and support from the government, it is hoped that the use of IoT will become more widespread and provide real benefits to society and industry.</p>"
+                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\"><span class=\"fontSizeXxLarge\"><strong>Overview</strong></span></p><p class=\"noSpacingAbove spacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"withSpacing\">&nbsp;</p><p class=\"noSpacingAbove spacingBelow\" style=\"margin-left:0px;\" data-text-type=\"withSpacing\">At our company, we specialize in <strong>IoT solutions for smart manufacturing and industrial applications</strong>, transforming traditional industries into digitally driven, data-powered operations. Our solutions leverage advanced IoT technologies to optimize manufacturing processes, enhance operational efficiency, and provide real-time insights that enable data-driven decision-making.</p>"
               },
               {
                 "id": "73bb5841-199b-4f22-9142-7389df68c8dc",
@@ -185,15 +164,19 @@
                       }
                     ],
                     "links": [],
-                    "searchablePlainTexts": []
+                    "searchablePlainTexts": [
+                      {
+                        "key": "captionText",
+                        "value": "Using drone to remotely monitor the crops"
+                      }
+                    ]
                   },
                   "title": "Image",
                   "properties": {
                     "imageSourceType": 2,
-                    "captionText": "",
                     "altText": "",
                     "linkUrl": "",
-                    "overlayText": "",
+                    "overlayText": "Using drone to remotely monitor the crops",
                     "fileName": "Drone-flying-over-a-field.jpg",
                     "imgWidth": 4866,
                     "imgHeight": 3243,
@@ -201,6 +184,11 @@
                     "isOverlayTextVisible": true,
                     "alignment": "Center",
                     "fixAspectRatio": false,
+                    "isOverlayTextEnabled": true,
+                    "resizeCoefficient": 1,
+                    "resizeDesiredWidth": 930,
+                    "imageShape": "Default",
+                    "isCaptionEnabled": true,
                     "advancedImageEditorData": {
                       "@odata.type": "#graph.Json",
                       "isAdvancedEdited": false
@@ -222,7 +210,7 @@
               {
                 "id": "c7217f6a-b376-4d97-9d16-4070ff7a155c",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">In the agricultural sector, IoT technology enables farmers to manage their fields more efficiently. IoT applications such as soil sensors and automatic irrigation systems help monitor soil conditions and moisture, so that water use can be optimized.</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p style=\"margin-left:0px;\">This can not only increase crop yields but also reduce the use of resources that are often wasted. In addition, drones equipped with cameras and sensors can be used to monitor crop growth and detect pest or disease problems early.</p><p class=\"noSpacingAbove noSpacingBelow\" style=\"margin-left:0px;\" data-text-type=\"noSpacing\">Some examples of IoT applications in smart agriculture include:</p><ol class=\"customListStyle\" style=\"list-style-type:decimal;\"><li><p style=\"margin-left:0px !important;\">Soil sensors: Monitor soil moisture, temperature, and nutrients.</p></li><li><p style=\"margin-left:0px !important;\">Automatic irrigation systems: Regulate watering based on data from soil sensors.</p></li><li><p style=\"margin-left:0px !important;\">Monitoring drones: Capture aerial images and sensor data for plant growth analysis.</p></li></ol>"
+                "innerHtml": "<h3>Key Components of Enterprise IoT Solutions:</h3><ol class=\"customListStyle\"><li><strong>Connected Devices and Sensors</strong><ul class=\"customListStyle\"><li>These include IoT-enabled hardware such as sensors, actuators, cameras, and machines that collect and send data. In enterprise environments, this could be anything from industrial equipment to energy meters, HVAC systems, or logistics tracking devices.</li></ul></li><li><strong>Data Collection &amp; Management</strong><ul class=\"customListStyle\"><li>Enterprise IoT solutions generate large volumes of data from various devices. This data is transmitted through secure communication protocols and processed in real time for actionable insights. Data management platforms help organize and store this data securely.</li></ul></li><li><strong>Analytics and AI</strong><ul class=\"customListStyle\"><li>Advanced analytics, often powered by machine learning (ML) and artificial intelligence (AI), are at the heart of enterprise IoT solutions. These tools help companies extract meaningful insights from the vast amounts of data generated by their IoT systems. AI can be used to predict equipment failures, optimize processes, and identify patterns that help improve decision-making.</li></ul></li><li><strong>Integration with Enterprise Systems</strong><ul class=\"customListStyle\"><li>Enterprise IoT solutions integrate seamlessly with other business systems like ERP (Enterprise Resource Planning), MES (Manufacturing Execution Systems), SCM (Supply Chain Management), and CRM (Customer Relationship Management) platforms. This integration ensures that IoT-generated data flows into key business processes for enhanced automation and decision support.</li></ul></li><li><strong>Edge Computing</strong><ul class=\"customListStyle\"><li>In enterprise IoT, data is often processed at the \"edge\" of the network, closer to the devices themselves, rather than being sent to a central cloud. This reduces latency, enables real-time decision-making, and minimizes bandwidth use, which is especially crucial for time-sensitive operations in sectors like manufacturing or logistics.</li></ul></li><li><strong>Cloud &amp; Connectivity</strong><ul class=\"customListStyle\"><li>Enterprise IoT relies on a mix of cloud-based platforms and robust connectivity technologies like 5G, Wi-Fi, Zigbee, and LoRaWAN to ensure devices communicate effectively. Cloud solutions allow for scalable storage, analytics, and remote access to IoT data, making it easier to manage large-scale deployments across multiple locations.</li></ul></li><li><strong>Security and Compliance</strong><ul class=\"customListStyle\"><li>Enterprise IoT solutions are designed with enterprise-level security in mind, ensuring that all data is encrypted, devices are authenticated, and communication channels are secure. These solutions also comply with industry-specific regulations (e.g., GDPR, HIPAA, or industrial safety standards) to ensure data protection and privacy.</li></ul></li></ol>"
               }
             ],
             "width": 12
@@ -242,7 +230,7 @@
               {
                 "id": "8bc1cf94-af46-401e-b791-9cbbbe53103e",
                 "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\"><span class=\"fontSizeXxLarge\"><strong>Products</strong></span></p><p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\">Awan IoT offers the following products to the customers:</p>"
+                "innerHtml": "<p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\"><span class=\"fontSizeXxLarge\"><strong>Products</strong></span></p><p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\">XYZ IoT offers the following products to the customers:</p><ol class=\"customListStyle\"><li><p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\">XYZ Viron - IoT Environmental monitoring</p></li><li><p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\">XYZ Asset Performance - IoT Asset Performance Management</p></li><li><p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\">XYZ Manufactr - IoT Smart Manufacturing</p></li></ol>"
               },
               {
                 "id": "4109d266-613f-4bdb-aefd-11e740b08830",
@@ -273,16 +261,20 @@
                     ],
                     "searchablePlainTexts": [
                       {
+                        "key": "title",
+                        "value": "Links to product page"
+                      },
+                      {
                         "key": "items[0].title",
-                        "value": "IoT Environment"
+                        "value": "XYZ Viron"
                       },
                       {
                         "key": "items[1].title",
-                        "value": "IoT Asset Performance Management"
+                        "value": "XYZ IoT Asset Performance "
                       },
                       {
                         "key": "items[2].title",
-                        "value": "IoT Smart Manufacturing"
+                        "value": "XYZ IoT Manufactr"
                       }
                     ]
                   },
@@ -296,6 +288,7 @@
                     "dataProviderId": "QuickLinks",
                     "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
                     "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "Title": "XYZ IoT Asset Performance ",
                     "items@odata.type": "#Collection(graph.Json)",
                     "items": [
                       {
@@ -303,6 +296,7 @@
                         "id": 3,
                         "description": "",
                         "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
                         "sourceItem": {
                           "@odata.type": "#graph.Json",
                           "itemType": 0,
@@ -394,11 +388,6 @@
             "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('fc8157b4-cb7f-482e-8afb-800688fd8ee8')/microsoft.graph.sitePage/canvasLayout/horizontalSections('4.5')/columns('1')/webparts",
             "webparts": [
               {
-                "id": "1a4da09f-0d64-45eb-8e9e-53ed4ab77d9b",
-                "@odata.type": "#microsoft.graph.textWebPart",
-                "innerHtml": "<p class=\"noSpacingAbove spacingBelow\" data-text-type=\"withSpacing\"><span class=\"fontSizeXxLarge\"><strong>IoT Team</strong></span></p><p class=\"noSpacingAbove spacingBelow\" aria-hidden=\"true\" data-text-type=\"withSpacing\">&nbsp;</p>"
-              },
-              {
                 "id": "8f3ae7cc-325f-407e-b7e5-751148da890b",
                 "@odata.type": "#microsoft.graph.standardWebPart",
                 "data": {
@@ -410,6 +399,10 @@
                     "links": [],
                     "searchablePlainTexts": [
                       {
+                        "key": "title",
+                        "value": "IoT Team"
+                      },
+                      {
                         "key": "persons[0].name",
                         "value": "Muhammad Arif Wicaksana"
                       },
@@ -420,13 +413,16 @@
                       {
                         "key": "persons[0].email",
                         "value": "arif@muarwi.onmicrosoft.com"
+                      },
+                      {
+                        "key": "persons[1].email",
+                        "value": "pram@muarwi.onmicrosoft.com"
                       }
                     ]
                   },
                   "title": "People",
                   "properties": {
                     "layout": 1,
-                    "title": "",
                     "persons@odata.type": "#Collection(graph.Json)",
                     "persons": [
                       {
@@ -463,10 +459,5 @@
         "layout": "oneColumn"
       }
     ]
-  },
-  "promotionKind": "page",
-  "reactions": {},
-  "showComments": false,
-  "showRecommendedPages": false,
-  "thumbnailWebUrl": "https://cdn.hubblecontent.osi.office.net/m365content/publish/984eb06b-e13d-4c1c-a05c-4f1f490993f1/thumbnails/large.jpg?file=1025633076.jpg"
+  }
 }
