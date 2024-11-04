@@ -1,0 +1,8 @@
+msgraph-sdk
+pandas 
+beautifulsoup4 
+neo4j 
+graphdatascience 
+langchain 
+jupyter
+openai
