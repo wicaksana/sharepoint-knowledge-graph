@@ -7,19 +7,24 @@ Related files:
 - graph.py
 - main.py
 
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
 Results are stored in `data` directory.
 
 ## Load Sharepoint data to Neo4j
 
 Related file:
-- load-data-to-neo4jV2.ipynb
+- [01_load_data.ipynb](01_load_data.ipynb)
 
 ## Get image description using OpenAI 
 
 Related file:
-- get_image_description.ipynb
+- [02_get_image_description.ipynb](02_get_image_description.ipynb)
 
 ## Semantic Search
 
 Related file:
-- genai.ipynb
+- [03_semantic_search.ipynb](03_semantic_search.ipynb)
