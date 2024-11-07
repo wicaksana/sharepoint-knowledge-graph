@@ -1,0 +1,354 @@
+{
+  "id": "8199d80c-b674-4b9e-8782-b175dbf22437",
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages/microsoft.graph.sitePage(id,name,webUrl,canvasLayout())/$entity",
+  "canvasLayout@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/$entity",
+  "name": "IoT-Asset-Performance-Management.aspx",
+  "webUrl": "https://muarwi.sharepoint.com/sites/XYZKnowledgeBase/SitePages/IoT-Asset-Performance-Management.aspx",
+  "canvasLayout": {
+    "horizontalSections@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections",
+    "horizontalSections": [
+      {
+        "id": "0.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('0.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "e3cd9704-4e84-47a6-af42-f2920ea8164d",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.5",
+                  "description": "Show a banner with title and author information",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "/_layouts/15/images/sleektemplateimagetile.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Banner",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "title": "XYZ IoT Asset Performance ",
+                    "textAlignment": "Left",
+                    "showPublishDate": false,
+                    "showTopicHeader": false,
+                    "authorByline@odata.type": "#Collection(String)",
+                    "authorByline": [
+                      "i:0#.f|membership|arif@muarwi.onmicrosoft.com"
+                    ],
+                    "layoutType": "CutInShape",
+                    "topicHeader": "",
+                    "enableGradientEffect": true,
+                    "isDecorative": true,
+                    "authors@odata.type": "#Collection(graph.Json)",
+                    "authors": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "upn": "arif@muarwi.onmicrosoft.com",
+                        "email": "arif@muarwi.onmicrosoft.com",
+                        "name": "Muhammad Arif Wicaksana",
+                        "role": "Head of Product"
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "cbe7b0a9-3504-44dd-a3a3-0e5cacd07788"
+              }
+            ],
+            "width": 0
+          }
+        ],
+        "emphasis": "none",
+        "layout": "fullWidth"
+      },
+      {
+        "id": "2",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "15cdf919-00f0-4c93-8c1c-5102a02338be",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">What is XYZ IoT Asset Performance?</h2><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">XYZ IoT Asset Performance is an end-to-end solution to manage and monitor indoors, outdoors, and on the move business assets in real-time. With an automated system of reports, alerts, and insight data retrieval, the entire management process will be easier.&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">As of now we are specializing to provide asset performance management for vaccine monitoring, ensuring stable temperature during distribution to the end users.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\"><strong>Why IoT Asset Performance is the right solution for your business</strong></p><ul class=\"customListStyle\"><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Total visibility: Real-time monitoring of product conditions indoors, outdoors and during delivery.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Notification and Alert: Identify anomalies through the notification system for analysis.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Prevent Theft and Loss: Keep products safe by knowing their real-time location.</p></li><li><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Supply Chain Optimization: Monitor the product delivery process more optimally.</p></li></ul>"
+              },
+              {
+                "id": "d5c41470-1b74-4166-a4cd-1a459e2829c2",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">How it works</h2><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">To manage vaccines, XYZ IoT Asset Performance focuses on monitoring and maintaining optimal storage, transport conditions, and equipment to ensure vaccine efficacy. Given the sensitivity of vaccines to environmental factors like temperature and humidity, APM solutions help prevent degradation, ensure compliance with regulatory standards, and optimize cold chain operations.</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Here are the key components required for XYZ IoT Asset Performance&nbsp;<strong> </strong>for vaccine management:</p><ol><li><h3 class=\"headingSpacingAbove headingSpacingBelow\">IoT Sensors and Edge Devices</h3></li></ol><ul class=\"customListStyle\"><li><strong>Purpose</strong>: To monitor the environmental conditions where vaccines are stored or transported.</li><li><strong>Types of Sensors</strong>:<ul class=\"customListStyle\"><li><strong>Temperature Sensors</strong>: Critical for maintaining the cold chain. These sensors monitor temperature in real time, ensuring that vaccines are kept within the required range (typically 2\u00b0C to 8\u00b0C for many vaccines, and even lower for some, like mRNA vaccines).</li><li><strong>Humidity Sensors</strong>: High humidity can affect the stability of vaccines, so monitoring humidity levels is essential.</li><li><strong>Door/Proximity Sensors</strong>: Track when storage units (e.g., refrigerators, freezers) are opened to ensure minimal exposure to ambient conditions.</li><li><strong>Power/Voltage Sensors</strong>: Detect power interruptions or failures in cooling units that could compromise vaccine safety.</li><li><strong>CO2 and Oxygen Sensors</strong> (optional): In special storage environments like ultra-low temperature freezers, these sensors ensure that the gas composition remains safe.</li></ul></li><li><strong>Edge Devices</strong>: Edge computing devices process sensor data locally to detect anomalies (e.g., temperature breaches) and send data to the cloud. This reduces latency and allows for immediate action in case of critical changes in storage conditions.</li></ul><h3 class=\"headingSpacingAbove headingSpacingBelow\">2. Cold Chain Monitoring Systems</h3><ul class=\"customListStyle\"><li><strong>Purpose</strong>: To monitor vaccines throughout the supply chain, from manufacturing to distribution and administration, ensuring they remain within strict temperature ranges.</li><li><strong>Features</strong>:<ul class=\"customListStyle\"><li><strong>Data Logging</strong>: Continuous tracking and logging of environmental conditions, providing historical records of the vaccine\u2019s storage conditions throughout its lifecycle.</li><li><strong>Temperature Thresholds</strong>: Configurable settings for acceptable temperature ranges, with alerts triggered if the temperature moves outside the safe zone.</li><li><strong>Real-Time GPS Tracking</strong>: For vaccines in transit, GPS-enabled devices provide real-time location tracking and environmental condition monitoring.</li></ul></li></ul><h3 class=\"headingSpacingAbove headingSpacingBelow\">3. IoT Gateways</h3><ul class=\"customListStyle\"><li><strong>Purpose</strong>: Connect sensors to the cloud platform for real-time data transmission and aggregation.</li><li><strong>Functionality</strong>:<ul class=\"customListStyle\"><li><strong>Communication Protocols</strong>: Gateways typically use cellular (4G/5G), Wi-Fi, or LoRaWAN networks to transmit data, ensuring reliable connectivity even in remote locations.</li><li><strong>Edge Computing</strong>: Gateways with edge processing capabilities can analyze temperature or power anomalies locally, triggering immediate alerts or corrective actions before data is sent to the cloud.</li></ul></li></ul><h3 class=\"headingSpacingAbove headingSpacingBelow\">4. Cloud Platform</h3><ul class=\"customListStyle\"><li><strong>Purpose</strong>: To store, process, and analyze sensor data, providing a centralized system for vaccine monitoring.</li><li><strong>Features</strong>:<ul class=\"customListStyle\"><li><strong>Data Storage</strong>: Historical data is stored for audits, compliance, and performance tracking of storage equipment (e.g., refrigerators, freezers).</li><li><strong>Real-Time Monitoring</strong>: Cloud-based dashboards allow users to monitor conditions across multiple storage sites in real time, ensuring a constant overview of vaccine conditions.</li><li><strong>Integration with Supply Chain Systems</strong>: Cloud platforms can integrate with vaccine management systems, enabling end-to-end tracking from production to administration.</li></ul></li></ul><h3 class=\"headingSpacingAbove headingSpacingBelow\">5. Predictive and Prescriptive Analytics</h3><ul class=\"customListStyle\"><li><strong>Purpose</strong>: To analyze data collected from sensors to predict potential equipment failures and ensure preventive actions are taken before vaccines are compromised.</li><li><strong>Predictive Maintenance</strong>: By analyzing temperature fluctuations, power data, or equipment performance trends (e.g., compressor cycles in refrigeration units), the system can predict when a cooling unit is likely to fail, enabling maintenance to be scheduled before a critical failure occurs.</li><li><strong>Prescriptive Maintenance</strong>: The system can also suggest optimal actions, such as adjusting temperature settings or recalibrating sensors, based on historical data and current conditions.</li></ul><h3 class=\"headingSpacingAbove headingSpacingBelow\">6. Digital Twins</h3><ul class=\"customListStyle\"><li><strong>Purpose</strong>: A digital twin is a virtual representation of the physical vaccine storage environment (e.g., freezers, refrigerators, transportation units). It allows operators to simulate and analyze real-time conditions.</li><li><strong>Functionality</strong>:<ul class=\"customListStyle\"><li><strong>Simulation</strong>: The digital twin can simulate how changes in temperature or power outages will affect vaccine storage, enabling operators to take preemptive actions.</li><li><strong>Risk Mitigation</strong>: It provides insights into potential risks, helping to optimize storage conditions and prevent costly vaccine spoilage.</li></ul></li></ul><h3>&nbsp;</h3>"
+              },
+              {
+                "id": "265e4c6e-0272-46c5-bfc3-2cae9c01b8bb",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.12",
+                  "description": "Add an image, picture or photo to your page including text overlays and ability to crop and resize images.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [
+                      {
+                        "key": "imageSource",
+                        "value": "https://cdn.hubblecontent.osi.office.net/m365content/publish/57db0400-6f15-406f-9050-559272b52e4c/1217424559.jpg"
+                      }
+                    ],
+                    "links": [],
+                    "searchablePlainTexts": []
+                  },
+                  "title": "Image",
+                  "properties": {
+                    "imageSourceType": 2,
+                    "captionText": "",
+                    "altText": "",
+                    "linkUrl": "",
+                    "overlayText": "Scientist preparing the vaccines",
+                    "fileName": "Vaccine-storage-and-manufacturing.jpg",
+                    "imgWidth": 6554,
+                    "imgHeight": 4369,
+                    "minimumLayoutWidth": 1,
+                    "isOverlayTextVisible": true,
+                    "alignment": "Center",
+                    "fixAspectRatio": false,
+                    "isOverlayTextEnabled": true,
+                    "resizeCoefficient": 1,
+                    "resizeDesiredWidth": 930,
+                    "advancedImageEditorData": {
+                      "@odata.type": "#graph.Json",
+                      "isAdvancedEdited": false
+                    },
+                    "overlayTextStyles": {
+                      "@odata.type": "#graph.Json",
+                      "textColor": "light",
+                      "isBold": false,
+                      "isItalic": false,
+                      "textBoxColor": "dark",
+                      "textBoxOpacity": 0.54,
+                      "overlayColor": "light",
+                      "overlayTransparency": 0
+                    }
+                  }
+                },
+                "webPartType": "d1d91016-032f-456d-98a4-721247c305e8"
+              },
+              {
+                "id": "62a1b07a-66a1-4f48-a518-a1d38424a5af",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\">Values to our customers</h2><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><ol class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\"><strong>Reduced Downtime and Increased Availability</strong>:</span><ul class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\">By predicting failures before they occur and scheduling maintenance only when needed, APM systems minimize unplanned downtime and ensure that assets are available for production or service.</span></li></ul></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Optimized Maintenance</strong>:</span><ul class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\">Shift from <strong>reactive</strong> (fixing equipment after it breaks) to <strong>predictive and prescriptive</strong> maintenance, reducing unnecessary maintenance activities and focusing resources on areas of actual need.</span></li></ul></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Extended Asset Lifespan</strong>:</span><ul class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\">Monitoring performance in real-time and addressing issues early helps to extend the operational life of assets by avoiding excessive wear and damage.</span></li></ul></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Improved Efficiency and Productivity</strong>:</span><ul class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\">Insights from real-time data allow operators to optimize how assets are used, ensuring maximum efficiency in production processes and reducing energy consumption.</span></li></ul></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Cost Savings</strong>:</span><ul class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\">Reduced downtime, optimized maintenance, and improved asset performance lead to significant cost savings, both in terms of maintenance expenses and operational inefficiencies.</span></li></ul></li><li><span style=\"background-color:transparent;color:#000000;\"><strong>Enhanced Safety and Compliance</strong>:</span><ul class=\"customListStyle\"><li><span style=\"background-color:transparent;color:#000000;\">APM solutions monitor for safety-related issues (e.g., overheating or excessive vibration), ensuring compliance with industry regulations and improving worker safety.</span></li></ul></li></ol>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2.25",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.25')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.25')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "1681c86f-1f85-4ee8-8436-7a8310334fc3",
+                "@odata.type": "#microsoft.graph.textWebPart",
+                "innerHtml": "<h2 class=\"headingSpacingAbove headingSpacingBelow\"><span class=\"fontSizeXLargePlus\"><strong>Pricing</strong></span></h2><h3 class=\"headingSpacingAbove headingSpacingBelow\">MQTT and HTTP messaging pricing</h3><p>Up to 1 billion messages: $1.00 (per million messages)</p><p>Next 4 billion messages: $0.80 (per million messages)</p><p>Over 5 billion messages: $0.70 (per million messages)</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><h3 class=\"headingSpacingAbove headingSpacingBelow\">Sidewalk messaging pricing</h3><p class=\"noSpacingAbove noSpacingBelow\" data-text-type=\"noSpacing\">Up to 1 billion messages: $2.30 (per million messages)</p><p>Next 4 billion messages: $1.50 (per million messages)</p><p>Over 5 billion messages: $1.20 (per million messages)</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p><h3 style=\"margin-left:0px;\">LoRaWAN messaging pricing</h3><p style=\"margin-left:0px;\"><strong>Up to 1 billion messages:</strong> $2.30 (per million messages)</p><p style=\"margin-left:0px;\"><strong>Next 4 billion messages:</strong> $1.50 (per million messages)</p><p style=\"margin-left:0px;\"><strong>Over 5 billion messages:</strong> $1.20 (per million messages)</p><p class=\"noSpacingAbove noSpacingBelow\" aria-hidden=\"true\" data-text-type=\"noSpacing\">&nbsp;</p>"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "2.5",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('2.5')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "0de2341f-734b-4497-b0cd-95521a29d8d1",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "2.3",
+                  "description": "Show a collection of links to content such as documents, images, videos, and more in a variety of layouts with options for icons, images, and audience targeting.",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [
+                      {
+                        "key": "baseUrl",
+                        "value": "/sites/XYZKnowledgeBase"
+                      },
+                      {
+                        "key": "items[0].sourceItem.url",
+                        "value": "https://muarwi-my.sharepoint.com/personal/arif_muarwi_onmicrosoft_com/Documents/XYZ%20IoT%20Performance%20Management.pdf"
+                      }
+                    ],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "title",
+                        "value": "Tools and Resources"
+                      },
+                      {
+                        "key": "items[0].title",
+                        "value": "XYZ IoT Performance Management"
+                      }
+                    ]
+                  },
+                  "title": "Quick links",
+                  "properties": {
+                    "isMigrated": true,
+                    "layoutId": "CompactCard",
+                    "shouldShowThumbnail": true,
+                    "imageWidth": 100,
+                    "hideWebPartWhenEmpty": true,
+                    "dataProviderId": "QuickLinks",
+                    "webId": "fdd58471-aa50-4b18-af76-349455216d9e",
+                    "siteId": "d4782aca-aacc-4f4f-a6d1-af9e0f41c4be",
+                    "items@odata.type": "#Collection(graph.Json)",
+                    "items": [
+                      {
+                        "thumbnailType": 3,
+                        "id": 1,
+                        "description": "",
+                        "altText": "",
+                        "rawPreviewImageMinCanvasWidth": 32767,
+                        "sourceItem": {
+                          "@odata.type": "#graph.Json",
+                          "itemType": 0,
+                          "fileExtension": ".PDF",
+                          "guids": {
+                            "@odata.type": "#graph.Json",
+                            "siteId": "913f576e-1c13-4c6b-8767-8d1254923322",
+                            "webId": "604d85bc-58e5-4814-8cd8-cfc2799b7a39",
+                            "listId": "45c113fb-3c01-4f2a-b04a-39825f5b2bec",
+                            "uniqueId": "e0dcf7f0-3852-4db0-862f-818d844cd536"
+                          }
+                        }
+                      }
+                    ],
+                    "listLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "showIcon": true
+                    },
+                    "buttonLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "showDescription": false,
+                      "buttonTreatment": 2,
+                      "iconPositionType": 2,
+                      "textAlignmentVertical": 2,
+                      "textAlignmentHorizontal": 2,
+                      "linesOfText": 2
+                    },
+                    "waffleLayoutOptions": {
+                      "@odata.type": "#graph.Json",
+                      "iconSize": 1,
+                      "onlyShowThumbnail": false
+                    }
+                  }
+                },
+                "webPartType": "c70391ea-0b10-4ee9-b2b4-006d3fcad0cd"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      },
+      {
+        "id": "3",
+        "columns@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns",
+        "columns": [
+          {
+            "id": "1",
+            "webparts@odata.context": "https://graph.microsoft.com/v1.0/$metadata#sites('d4782aca-aacc-4f4f-a6d1-af9e0f41c4be')/pages('8199d80c-b674-4b9e-8782-b175dbf22437')/microsoft.graph.sitePage/canvasLayout/horizontalSections('3')/columns('1')/webparts",
+            "webparts": [
+              {
+                "id": "173f166f-cdda-4add-9376-761bb46e2f9d",
+                "@odata.type": "#microsoft.graph.standardWebPart",
+                "data": {
+                  "dataVersion": "1.4",
+                  "description": "Display selected people and their profiles",
+                  "serverProcessedContent": {
+                    "htmlStrings": [],
+                    "imageSources": [],
+                    "links": [],
+                    "searchablePlainTexts": [
+                      {
+                        "key": "title",
+                        "value": "Key Contacts"
+                      },
+                      {
+                        "key": "persons[0].name",
+                        "value": "Muhammad Arif Wicaksana"
+                      },
+                      {
+                        "key": "persons[1].name",
+                        "value": "Pramoedya Toer"
+                      },
+                      {
+                        "key": "persons[0].email",
+                        "value": "arif@muarwi.onmicrosoft.com"
+                      },
+                      {
+                        "key": "persons[1].email",
+                        "value": "pram@muarwi.onmicrosoft.com"
+                      }
+                    ]
+                  },
+                  "title": "People",
+                  "properties": {
+                    "layout": 3,
+                    "persons@odata.type": "#Collection(graph.Json)",
+                    "persons": [
+                      {
+                        "id": "i:0#.f|membership|arif@muarwi.onmicrosoft.com",
+                        "role": "Head of Product",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
+                        "sip": "",
+                        "department": ""
+                      },
+                      {
+                        "id": "i:0#.f|membership|pram@muarwi.onmicrosoft.com",
+                        "email": "",
+                        "role": "Product Manager",
+                        "firstName": "",
+                        "lastName": "",
+                        "upn": "",
+                        "phone": "",
+                        "sip": "",
+                        "department": ""
+                      }
+                    ]
+                  }
+                },
+                "webPartType": "7f718435-ee4d-431c-bdbf-9c4ff326f46e"
+              }
+            ],
+            "width": 12
+          }
+        ],
+        "emphasis": "none",
+        "layout": "oneColumn"
+      }
+    ]
+  }
+}
