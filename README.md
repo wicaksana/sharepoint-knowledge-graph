@@ -1,6 +1,8 @@
 # sharepoint-knowledge-graph
 Create knowledge graph from a Sharepoint site (for Sharepoint in Microsoft 365).
 
+![Final Graph](./images/complete_graph.png)
+
 ## Sharepoint Pages Used
 
 Folder [pages](pages) contains all Sharepoint pages (in PDF format) used as reference. The contents are mostly generated using ChatGPT.
