@@ -1,11 +1,15 @@
 # sharepoint-knowledge-graph
-Create knowledge graph from a Sharepoint site.
+Create knowledge graph from a Sharepoint site (for Sharepoint in Microsoft 365).
 
-## Get Sharepoint Data from Graph API
+## Sharepoint Pages Used
+
+Folder [pages](pages) contains all Sharepoint pages (in PDF format) used as reference. The contents are mostly generated using ChatGPT.
+
+## Get Sharepoint Data using Microsoft Graph API
 
 Related files:
-- graph.py
-- main.py
+- [graph.py](graph.py)
+- [main.py](main.py)
 
 ```bash
 pip install -r requirements.txt
